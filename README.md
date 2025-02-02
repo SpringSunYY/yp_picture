@@ -887,13 +887,13 @@ public class MainController {
 npm create vue@latest
 ```
 
-NPM 会自动安装 create-vue 工具：Kvj0N9UsvjnA2JCtBYVVlZvRih721R4WfPhhdfsvDfk=
+NPM 会自动安装 create-vue 工具：
 
 ![img](./assets/YdlRG2HXZ84ug0hv.webp)
 
 **注意本教程使用的版本号是 3.12.1，如果之后版本更新导致跟鱼皮的教程不一致，记得安装特定版本的工具，而不是 latest 最新版！**
 
-接下来按照如下选项创建项目，脚手架会自动帮我们安装 Vue Router 路由、Pinia 全局状态管理等实用类库：6oQFIoMC2vFqWS6BDNDfWm34cANQaqyg4rGukImfAHk=
+接下来按照如下选项创建项目，脚手架会自动帮我们安装 Vue Router 路由、Pinia 全局状态管理等实用类库：
 
 ![img](./assets/iVb3qq4uRl03jEH5.webp)
 
@@ -952,11 +952,13 @@ npm i --save ant-design-vue@4.x
 ```typescript
 import App from './App.vue'
 import router from './router'
-import Antd from "ant-design-vue";
-import "ant-design-vue/dist/reset.css";
+import Antd from 'ant-design-vue'
+import 'ant-design-vue/dist/reset.css'
+import { createPinia } from 'pinia'
+import { createApp } from 'vue'
 
 const app = createApp(App)
-app.use(Antd);
+app.use(Antd)
 app.use(createPinia())
 app.use(router)
 
@@ -977,7 +979,7 @@ app.mount('#app')
 
 ### 开发规范
 
-建议遵循 Vue3 的组合式 API (Composition API)，而不是 [选项式 API](https://cn.vuejs.org/guide/introduction.html#composition-api)，开发更自由高效一些。cT00UyE1JKn/y8Q147TQRzbDavEs+V72bbBFCS1wu6g=
+建议遵循 Vue3 的组合式 API (Composition API)，而不是 [选项式 API](https://cn.vuejs.org/guide/introduction.html#composition-api)，开发更自由高效一些。
 
 示例代码：
 
@@ -1019,7 +1021,7 @@ app.mount('#app')
 </html>
 ```
 
-还可以替换 public 目录下默认的 ico 图标为自己的，有很多 [现成的网站](https://www.bitbug.net/) 可以制作 ico 图标。sqWmWUk8kFL4uPey9+8ro5dv7g8fCeOwW9uL7T8/Q4k=
+还可以替换 public 目录下默认的 ico 图标为自己的，有很多 [现成的网站](https://www.bitbug.net/) 可以制作 ico 图标。
 
 效果如图：
 
@@ -1031,7 +1033,7 @@ app.mount('#app')
 
 在 layouts 目录下新建一个布局 `BasicLayout.vue`， 在 App.vue 全局页面入口文件中引入。
 
-App.vue 代码如下：Kvj0N9UsvjnA2JCtBYVVlZvRih721R4WfPhhdfsvDfk=
+App.vue 代码如下：
 
 ```typescript
 <template>
@@ -1048,7 +1050,7 @@ import BasicLayout from "@/layouts/BasicLayout.vue";
 可以移除页面内的默认样式、并且移除 main.ts 中默认引入的 main.css，防止样式污染：
 
 ```css
-    <style>
+<style>
 #app {
 }
 </style>
@@ -1481,9 +1483,7 @@ generateService({
 
 在 package.json 的 script 中添加 `"openapi": "node openapi.config.js"`
 
-执行即可生成请求代码，还包括 TypeScript 类型：XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
-
-![img](./assets/rjPby2IANNsRZEEx.webp)
+执行即可生成请求代码，还包括 TypeScript 类型：![img](./assets/rjPby2IANNsRZEEx.webp)
 
 以后每次后端接口变更时，只需要重新生成一遍就好，非常方便~
 
