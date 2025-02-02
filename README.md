@@ -8,7 +8,7 @@
 
 基于 Vue 3 + Spring Boot + COS + WebSocket 的 **企业级智能协同云图库平台**。
 
-平台的核心功能可分为 4 大类：qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+平台的核心功能可分为 4 大类：
 
 1）所有用户都可以在平台公开上传和检索图片素材，快速找到需要的图片。可用作表情包网站、设计素材网站、壁纸网站等：
 
@@ -26,13 +26,13 @@
 
 ![img](./assets/fJcbyE0T9HAmJ9EW.webp)
 
-该项目功能丰富，涉及文件存管、内容检索、权限控制、实时协同等企业主流业务场景，并运用多种编程思想、架构设计方法和优化策略来保证项目的高速迭代和稳定运行。Kvj0N9UsvjnA2JCtBYVVlZvRih721R4WfPhhdfsvDfk=
+该项目功能丰富，涉及文件存管、内容检索、权限控制、实时协同等企业主流业务场景，并运用多种编程思想、架构设计方法和优化策略来保证项目的高速迭代和稳定运行。
 
 有业务、有技术，从 0 到 1 的真实企业级（商业级）项目设计开发，绝对让你收获满满！
 
 ### 项目三大阶段
 
-为了帮大家循序渐进地学习，鱼皮将项目设计为三个阶段，可以根据自己的时间和水平按需学习。XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
+为了帮大家循序渐进地学习，鱼皮将项目设计为三个阶段，可以根据自己的时间和水平按需学习。
 
 1）第一阶段，开发公共的图库平台。实战 Vue 3 + Spring Boot 图片素材网站的快速开发，学习文件存管业务的开发和优化技巧。
 
@@ -56,7 +56,7 @@
 
 ### 项目收获
 
-本项目选题新颖、功能丰富、业务真实、应用广泛。区别于增删改查的 “烂大街” 项目，鱼皮会带你实战大量新技术和商业应用场景，掌握层层递进的系统设计、项目扩展和优化方案，给你的简历大幅增加竞争力。XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
+本项目选题新颖、功能丰富、业务真实、应用广泛。区别于增删改查的 “烂大街” 项目，鱼皮会带你实战大量新技术和商业应用场景，掌握层层递进的系统设计、项目扩展和优化方案，给你的简历大幅增加竞争力。
 
 鱼皮给大家讲的都是 **通用的项目开发方法和架构设计套路**，从这个项目中你可以学到：
 
@@ -71,13 +71,13 @@
 - 如何使用 DDD 架构实现大型企业级项目？
 - 如何快速部署上线项目？
 
-此外，还能学会很多作图、思考问题、对比方案的方法，提升排查问题、自主解决 Bug 的能力。鱼皮还给大家提供了大量的项目扩展点，有能力的同学可以进一步拉开和别人的区分度，无限进步！sqWmWUk8kFL4uPey9+8ro5dv7g8fCeOwW9uL7T8/Q4k=
+此外，还能学会很多作图、思考问题、对比方案的方法，提升排查问题、自主解决 Bug 的能力。鱼皮还给大家提供了大量的项目扩展点，有能力的同学可以进一步拉开和别人的区分度，无限进步！
 
 ### 鱼皮系列项目优势
 
-鱼皮原创项目系列以 **实战** 为主，用 **全程直播** 的方式，**从 0 到 1bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=** 带大家学习技术知识，并立即实践运用到项目中，做到学以致用。
+鱼皮原创项目系列以 **实战** 为主，用 **全程直播** 的方式，**从 0 到 1 ** 带大家学习技术知识，并立即实践运用到项目中，做到学以致用。
 
-此外，还提供如下服务：qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+此外，还提供如下服务：
 
 - 详细的文字教程或直播笔记
 - 完整的项目源码
@@ -90,9 +90,7 @@
 
 比起看网上的教程学习，鱼皮项目系列的优势：从学知识 => 实践项目 => 复习笔记 => 项目答疑 => 简历写法 => 面试题解的一条龙服务
 
-从需求分析、技术选型、项目设计、项目初始化、Demo 编写、前后端开发实现、项目优化、部署上线等，每个环节我都 **从理论到实践** 给大家讲的明明白白、每个细节都不放过！XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
-
-/MBNmaRtUhzDE9b4tB/jsqs1ClvvhzK+S4KVLPihc/I=bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=cT00UyE1JKn/y8Q147TQRzbDavEs+V72bbBFCS1wu6g=6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=p87QUult0bZDR05AO5soQVixQ5nCQ+HA+P5tLSHK/hI=qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=cT00UyE1JKn/y8Q147TQRzbDavEs+V72bbBFCS1wu6g=XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=/MBNmaRtUhzDE9b4tB/jsqs1ClvvhzK+S4KVLPihc/I=/MBNmaRtUhzDE9b4tB/jsqs1ClvvhzK+S4KVLPihc/I=6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=Kvj0N9UsvjnA2JCtBYVVlZvRih721R4WfPhhdfsvDfk=6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=/MBNmaRtUhzDE9b4tB/jsqs1ClvvhzK+S4KVLPihc/I=p87QUult0bZDR05AO5soQVixQ5nCQ+HA+P5tLSHK/hI=
+从需求分析、技术选型、项目设计、项目初始化、Demo 编写、前后端开发实现、项目优化、部署上线等，每个环节我都 **从理论到实践** 给大家讲的明明白白、每个细节都不放过！
 
 | 对比维度 | 跟学鱼皮项目                                                 | 自学网上免费项目qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA= | ⭐️ 鱼皮项目优势               |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- |
@@ -235,7 +233,7 @@
 
 ## 新建代码仓库
 
-搭建仓库，点 star 的都是精神股东p87QUult0bZDR05AO5soQVixQ5nCQ+HA+P5tLSHK/hI=
+搭建仓库，点 star 的都是精神股东
 
 代码仓库：https://github.com/liyupi/yu-picture
 
@@ -258,7 +256,7 @@
 - 用户权限控制
 - 用户管理
 
-第 4 期：图片模块开发（前后端）cT00UyE1JKn/y8Q147TQRzbDavEs+V72bbBFCS1wu6g=
+第 4 期：图片模块开发（前后端）
 
 - 【管理员】图片上传和创建
 - 【管理员】管理图片
@@ -291,7 +289,7 @@
 - 私有空间权限控制
 - 空间级别和限额控制
 
-第 8 期：图片功能扩展bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+第 8 期：图片功能扩展
 
 - 图片搜索
 - - 基础属性搜索
@@ -326,7 +324,7 @@
   - 设置权限
 - 空间成员权限控制
 
-第 12 期：图片协同编辑bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+第 12 期：图片协同编辑
 
 第 13 期：DDD 项目改造
 
@@ -342,7 +340,7 @@
 
 从 0 开始搭建后端和前端项目，会后续正式开发项目打好基础。
 
-包括：sqWmWUk8kFL4uPey9+8ro5dv7g8fCeOwW9uL7T8/Q4k=
+包括：
 
 - 后端项目初始化
 - 前端项目初始化
@@ -355,7 +353,7 @@
 
 1）安装的 JDK 版本必须是 8、11 或 17，**不能超过 17！**
 
-推荐使用 11 版本，因为后续可能要用到的缓存库 Caffeine 要求使用 11 版本。sqWmWUk8kFL4uPey9+8ro5dv7g8fCeOwW9uL7T8/Q4k=
+推荐使用 11 版本，因为后续可能要用到的缓存库 Caffeine 要求使用 11 版本。
 
 可参考视频安装 JDK：https://www.bilibili.com/video/BV14SUNYREv8
 
@@ -367,7 +365,7 @@
 
 注意需要替换 Server URL 为 https://start.aliyun.com/，因为官方的 Server URL 不支持选择 Java 8。
 
-配置如图：bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+配置如图：
 
 ![img](./assets/GUzAfYi5pwKtrdGH.webp)
 
@@ -379,13 +377,13 @@
 
 点击创建，就得到了一个 Spring Boot 项目，需要等待 Maven 为我们安装依赖。
 
-安装完依赖后，先尝试启动一下项目，结果会报错：6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=
+安装完依赖后，先尝试启动一下项目，结果会报错：
 
 ![img](./assets/37FgGCXDIyLjQT0N.webp)
 
 因为我们在 Maven 中引入了 MySQL 依赖，但是项目配置文件中并没有填写 MySQL 的配置。
 
-修改资源目录下的配置文件为 `application.yml`，指定项目启动的端口号和访问地址前缀、项目名称、数据库配置等。代码如下：sqWmWUk8kFL4uPey9+8ro5dv7g8fCeOwW9uL7T8/Q4k=
+修改资源目录下的配置文件为 `application.yml`，指定项目启动的端口号和访问地址前缀、项目名称、数据库配置等。代码如下：
 
 ```yaml
 ▼yaml复制代码server:
@@ -417,7 +415,7 @@ MyBatis Plus 是 MyBatis 的增强工具，旨在简化开发流程。它提供�
 
 参考官方文档引入：https://baomidou.com/getting-started/#spring-boot2
 
-在 Maven 的 pom.xml 中添加依赖：cT00UyE1JKn/y8Q147TQRzbDavEs+V72bbBFCS1wu6g=
+在 Maven 的 pom.xml 中添加依赖：
 
 ```xml
 <dependency>
@@ -445,7 +443,7 @@ public class YuPictureBackendApplication {
 }
 ```
 
-在 application.yml 中追加配置，开启日志和逻辑删除功能：qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+在 application.yml 中追加配置，开启日志和逻辑删除功能：
 
 ```yaml
 mybatis-plus:
@@ -462,7 +460,7 @@ mybatis-plus:
 
 #### 2、Hutool 工具库
 
-Hutool 是主流的 Java 工具类库，集合了丰富的工具类，涵盖字符串处理、日期操作、文件处理、加解密、反射、正则匹配等常见功能。它的轻量化和无侵入性让开发者能够专注于业务逻辑而不必编写重复的工具代码。例如，`DateUtil.formatDate(new Date())` 可以快速将当前日期格式化为字符串。6oQFIoMC2vFqWS6BDNDfWm34cANQaqyg4rGukImfAHk=
+Hutool 是主流的 Java 工具类库，集合了丰富的工具类，涵盖字符串处理、日期操作、文件处理、加解密、反射、正则匹配等常见功能。它的轻量化和无侵入性让开发者能够专注于业务逻辑而不必编写重复的工具代码。例如，`DateUtil.formatDate(new Date())` 可以快速将当前日期格式化为字符串。
 
 参考官方文档引入：[https://doc.hutool.cn/pages/index/#%F0%9F%8D%8Amaven](https://doc.hutool.cn/pages/index/#🍊maven)
 
@@ -498,7 +496,7 @@ Knife4j 是基于 Swagger 接口文档的增强工具，提供了更加友好的
 
 ![img](./assets/b2AI11lzAexgqj0A.webp)
 
-在 application.yml 中追加接口文档配置，扫描 Controller 包：XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
+在 application.yml 中追加接口文档配置，扫描 Controller 包：
 
 ```yaml
 # 接口文档配置
@@ -541,7 +539,7 @@ knife4j:
 
 ### 通用基础代码
 
-通用基础代码是指：无论在任何后端项目中，都可以复用的代码。这种代码一般 “一辈子只用写一次”，了解作用之后复制粘贴即可，无需记忆。qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+通用基础代码是指：无论在任何后端项目中，都可以复用的代码。这种代码一般 “一辈子只用写一次”，了解作用之后复制粘贴即可，无需记忆。
 
 目录结构如下：
 
@@ -662,7 +660,7 @@ public class ThrowUtils {
 
 一般情况下，每个后端接口都要返回调用码、数据、调用信息等，前端可以根据这些信息进行相应的处理。
 
-我们可以封装统一的响应结果类，便于前端统一获取这些信息。XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
+我们可以封装统一的响应结果类，便于前端统一获取这些信息。
 
 通用响应类：
 
@@ -692,7 +690,7 @@ public class BaseResponse<T> implements Serializable {
 }
 ```
 
-但之后每次接口返回值时，都要手动 new 一个 BaseResponse 对象并传入参数，比较麻烦，我们可以新建一个工具类，提供成功调用和失败调用的方法，支持灵活地传参，简化调用。6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=
+但之后每次接口返回值时，都要手动 new 一个 BaseResponse 对象并传入参数，比较麻烦，我们可以新建一个工具类，提供成功调用和失败调用的方法，支持灵活地传参，简化调用。
 
 ```java
 public class ResultUtils {
@@ -766,7 +764,7 @@ public class GlobalExceptionHandler {
 
 #### 4、请求包装类
 
-对于 “分页”、“删除某条数据” 这类通用的请求，可以封装统一的请求包装类，用于接受前端传来的参数，之后相同参数的请求就不用专门再新建一个类了。qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+对于 “分页”、“删除某条数据” 这类通用的请求，可以封装统一的请求包装类，用于接受前端传来的参数，之后相同参数的请求就不用专门再新建一个类了。
 
 分页请求包装类，接受页号、页面大小、排序字段、排序顺序参数：
 
@@ -796,7 +794,7 @@ public class PageRequest {
 }
 ```
 
-删除请求包装类，接受要删除数据的 id 作为参数：qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+删除请求包装类，接受要删除数据的 id 作为参数：
 
 ```java
 @Data
@@ -813,7 +811,7 @@ public class DeleteRequest implements Serializable {
 
 #### 5、全局跨域配置
 
-跨域是指浏览器访问的 URL（前端地址）和后端接口地址的域名（或端口号）不一致导致的，浏览器为了安全，默认禁止跨域请求访问。qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+跨域是指浏览器访问的 URL（前端地址）和后端接口地址的域名（或端口号）不一致导致的，浏览器为了安全，默认禁止跨域请求访问。
 
 为了开发调试方便，我们可以通过全局跨域配置，让整个项目所有的接口支持跨域，解决跨域报错。
 
@@ -923,7 +921,7 @@ NPM 会自动安装 create-vue 工具：
 
 ![img](./assets/HQ7n06Nn5dpiNo1U.webp)
 
-修改 eslint.config.js、.prettierrc.json、tsconfig.json 文件可以改变校验规则。XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
+修改 eslint.config.js、.prettierrc.json、tsconfig.json 文件可以改变校验规则。
 
 如果不使用脚手架，就需要自己整合这些工具：
 
@@ -937,7 +935,7 @@ NPM 会自动安装 create-vue 工具：
 
 引入 Ant Design Vue 组件库，参考 [官方文档](https://antdv.com/docs/vue/getting-started-cn) 快速上手。
 
-注意，本教程使用的是 v4.2.6 的组件库版本，如果后续阅读本教程中发现有组件或语法不一致，以官方文档为主，或者在网站右上角切换对应版本的文档即可：bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+注意，本教程使用的是 v4.2.6 的组件库版本，如果后续阅读本教程中发现有组件或语法不一致，以官方文档为主，或者在网站右上角切换对应版本的文档即可：
 
 ![img](./assets/vVHtPMAIOYVozFQf.webp)
 
@@ -965,7 +963,7 @@ app.use(router)
 app.mount('#app')
 ```
 
-随便引入一个组件，如果显示出来，就表示引入成功。Kvj0N9UsvjnA2JCtBYVVlZvRih721R4WfPhhdfsvDfk=
+随便引入一个组件，如果显示出来，就表示引入成功。
 
 比如引入按钮：
 
@@ -973,7 +971,7 @@ app.mount('#app')
 <a-button type="primary">Primary Button</a-button>
 ```
 
-效果如图：XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
+效果如图：
 
 ![img](./assets/EG58mZocc8yatzPB.webp)
 
@@ -1060,7 +1058,7 @@ import BasicLayout from "@/layouts/BasicLayout.vue";
 
 ![img](./assets/kJS5TSGYKESmhJFM.webp)
 
-代码如下：bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+代码如下：
 
 ```vue
 <template>
@@ -1151,7 +1149,7 @@ import BasicLayout from "@/layouts/BasicLayout.vue";
 </a-layout-header>
 ```
 
-引入代码如下：XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
+引入代码如下：
 
 ```vue
 <script setup lang="ts">
@@ -1174,7 +1172,7 @@ import GlobalHeader from "@/components/GlobalHeader.vue";
 }
 ```
 
-接下来要修改 GlobalHeader 组件，完善更多内容。6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=
+接下来要修改 GlobalHeader 组件，完善更多内容。
 
 1）给菜单外套一层元素，用于整体控制样式：
 
@@ -1184,7 +1182,7 @@ import GlobalHeader from "@/components/GlobalHeader.vue";
 </div>
 ```
 
-2）根据我们的需求修改菜单配置，key 为要跳转的 URL 路径：bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+2）根据我们的需求修改菜单配置，key 为要跳转的 URL 路径：
 
 ```vue
 <script lang="ts" setup>
@@ -1235,7 +1233,7 @@ const items = ref<MenuProps['items']>([
 </RouterLink>
 ```
 
-其中，RouterLink 组件的作用是支持超链接跳转（不刷新页面）。qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+其中，RouterLink 组件的作用是支持超链接跳转（不刷新页面）。
 
 补充 CSS 样式：
 
@@ -1258,7 +1256,7 @@ const items = ref<MenuProps['items']>([
 </style>
 ```
 
-4）完善顶部导航栏，右侧展示当前用户的登录状态（暂时用登录按钮代替）：p87QUult0bZDR05AO5soQVixQ5nCQ+HA+P5tLSHK/hI=
+4）完善顶部导航栏，右侧展示当前用户的登录状态（暂时用登录按钮代替）：
 
 ```vue
 <div class="user-login-status">
@@ -1341,7 +1339,7 @@ const doMenuClick = ({ key }: { key: string }) => {
 };
 ```
 
-修改 HTML 模板，绑定事件：6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=
+修改 HTML 模板，绑定事件：
 
 ```vue
 <a-menu
@@ -1381,13 +1379,13 @@ router.afterEach((to, from, next) => {
 
 一般情况下，前端只负责界面展示和动效交互，尽量避免写复杂的逻辑；当需要获取数据时，通常是向后端提供的接口发送请求，由后端执行操作（比如保存数据）并响应数据给前端。
 
-前端如何向后端发送请求呢？最传统的方式是使用 AJAX 技术。但其代码有些复杂，我们可以使用第三方的封装库，来简化发送请求的代码，比如主流的请求工具库 Axios。Kvj0N9UsvjnA2JCtBYVVlZvRih721R4WfPhhdfsvDfk=
+前端如何向后端发送请求呢？最传统的方式是使用 AJAX 技术。但其代码有些复杂，我们可以使用第三方的封装库，来简化发送请求的代码，比如主流的请求工具库 Axios。
 
 #### 1、请求工具库
 
 安装请求工具类 Axios，参考官方文档：https://axios-http.com/docs/intro
 
-代码：sqWmWUk8kFL4uPey9+8ro5dv7g8fCeOwW9uL7T8/Q4k=
+代码：
 
 ```shell
 npm install axios
@@ -1395,13 +1393,13 @@ npm install axios
 
 #### 2、全局自定义请求
 
-需要自定义全局请求地址等，参考 Axios 官方文档，编写请求配置文件 `request.ts`。包括全局接口请求地址、超时时间、自定义请求响应拦截器等。Kvj0N9UsvjnA2JCtBYVVlZvRih721R4WfPhhdfsvDfk=
+需要自定义全局请求地址等，参考 Axios 官方文档，编写请求配置文件 `request.ts`。包括全局接口请求地址、超时时间、自定义请求响应拦截器等。
 
 响应拦截器的应用场景：我们需要对接口的 **通用响应** 进行统一处理，比如从 response 中取出 data；或者根据 code 去集中处理错误。这样不用在每个接口请求中都去写相同的逻辑。
 
 比如可以在全局响应拦截器中，读取出结果中的 data，并校验 code 是否合法，如果是未登录状态，则自动登录。
 
-示例代码如下，其中 `withCredentials: true` 一定要写，否则无法在发请求时携带 Cookie，就无法完成登录。cT00UyE1JKn/y8Q147TQRzbDavEs+V72bbBFCS1wu6g=
+示例代码如下，其中 `withCredentials: true` 一定要写，否则无法在发请求时携带 Cookie，就无法完成登录。
 
 代码如下：
 
@@ -1461,7 +1459,7 @@ export default myAxios
 
 推荐使用 OpenAPI 工具，直接自动生成即可：https://www.npmjs.com/package/@umijs/openapi
 
-按照官方文档的步骤，先安装：qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+按照官方文档的步骤，先安装：
 
 ```shell
 npm i --save-dev @umijs/openapi
@@ -1499,13 +1497,13 @@ healthUsingGet().then((res) => {
 })
 ```
 
-按 F12 打开开发者工具查看请求，由于我们后端已经添加了全局跨域配置，正常情况下应该能看到如下响应：/MBNmaRtUhzDE9b4tB/jsqs1ClvvhzK+S4KVLPihc/I=
+按 F12 打开开发者工具查看请求，由于我们后端已经添加了全局跨域配置，正常情况下应该能看到如下响应：
 
 ![img](./assets/Bqn7baGH3Qjeoxqx.webp)
 
 #### 5、解决跨域（可选）
 
-如果发现请求错误，要查看错误信息具体分析。比如遇到 **跨域问题**，这是由于前端网页地址和后端请求接口地址不同导致的：p87QUult0bZDR05AO5soQVixQ5nCQ+HA+P5tLSHK/hI=
+如果发现请求错误，要查看错误信息具体分析。比如遇到 **跨域问题**，这是由于前端网页地址和后端请求接口地址不同导致的：
 
 ![img](./assets/bDwJvewtotrHjVOJ.webp)
 
@@ -1525,7 +1523,7 @@ export default defineConfig({
 })
 ```
 
-同时修改 request.ts，移除请求前缀：p87QUult0bZDR05AO5soQVixQ5nCQ+HA+P5tLSHK/hI=
+同时修改 request.ts，移除请求前缀：
 
 ```typescript
 // 创建 Axios 实例
@@ -1538,13 +1536,13 @@ const myAxios = axios.create({
 
 这样一来，前端发送的请求域名就等同于当前 URL 的域名，就不会出现跨域。但是访问到 /api 开头的接口时，会被代理到请求 8123 端口的后端服务器，从而完成请求。
 
-💡 还有很多前端代理工具，比如 [Whistle](https://wproxy.org/whistle/install.html)，前端方向的同学可以去了解下。p87QUult0bZDR05AO5soQVixQ5nCQ+HA+P5tLSHK/hI=
+💡 还有很多前端代理工具，比如 [Whistle](https://wproxy.org/whistle/install.html)，前端方向的同学可以去了解下。
 
 ### 全局状态管理
 
 什么是全局状态管理？
 
-答：所有页面全局共享的变量，而不是局限在某一个页面中。qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+答：所有页面全局共享的变量，而不是局限在某一个页面中。
 
 适合作为全局状态的数据：已登录用户信息（每个页面几乎都要用）
 
@@ -1556,7 +1554,7 @@ Pinia 是一个主流的状态管理库，相比于 Vuex 来说使用更简单�
 
 #### 2、定义状态
 
-在 src/stores 目录下定义 user 模块，定义了用户的存储、远程获取、修改逻辑：qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+在 src/stores 目录下定义 user 模块，定义了用户的存储、远程获取、修改逻辑：
 
 ```typescript
 import { defineStore } from "pinia";
@@ -1585,7 +1583,7 @@ export const useLoginUserStore = defineStore("loginUser", () => {
 
 #### 3、使用状态
 
-可以直接使用 store 中导出的状态变量和函数。sqWmWUk8kFL4uPey9+8ro5dv7g8fCeOwW9uL7T8/Q4k=
+可以直接使用 store 中导出的状态变量和函数。
 
 在首次进入到页面时，一般我们会尝试获取登录用户信息。修改 App.vue，编写远程获取数据代码：
 
@@ -1630,13 +1628,13 @@ async function fetchLoginUser() {
 
 ![img](./assets/YTpW1ZzxrBuyTY2f.webp)
 
-至此，一个入门级的前端项目就初始化好了，接下来我们就可以进行页面开发。6oQFIoMC2vFqWS6BDNDfWm34cANQaqyg4rGukImfAHk=
+至此，一个入门级的前端项目就初始化好了，接下来我们就可以进行页面开发。
 
 ### 页面开发流程
 
 我们通过开发一个简易的示例页面，来了解页面开发的流程。
 
-1）新建 src/pages 目录，用于存放所有的页面文件。p87QUult0bZDR05AO5soQVixQ5nCQ+HA+P5tLSHK/hI=
+1）新建 src/pages 目录，用于存放所有的页面文件。
 
 然后在 pages 目录下新建页面文件，将所有页面按照 url 层级进行创建，并且页面名称尽量做到“见名知意”。
 
@@ -1695,14 +1693,2081 @@ const msg = "欢迎来到编程导航，你将从这里开始项目学习之旅~
 </style>
 ```
 
-页面效果如图：qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+页面效果如图：
 
 ![img](./assets/J6Aikr4YIjlz6dLK.webp)
 
 ### 扩展
 
-在后续开发中你会发现，Ant Design Vue 默认使用的是英文文案，如果需要替换为中文，可以参考 [国际化文档](https://antdv.com/docs/vue/i18n-cn)，只需给整个应用包裹一层组件即可完成。Kvj0N9UsvjnA2JCtBYVVlZvRih721R4WfPhhdfsvDfk=
+在后续开发中你会发现，Ant Design Vue 默认使用的是英文文案，如果需要替换为中文，可以参考 [国际化文档](https://antdv.com/docs/vue/i18n-cn)，只需给整个应用包裹一层组件即可完成。
 
 ------
 
 本节教程到这里就结束了，建议大家从 0 实操下项目初始化，以后自己搭建一个新项目，也不会觉得困难啦~
+
+
+
+
+
+# 3 - 用户模块
+
+## 本节重点
+
+首先开发每个项目基本都具有的用户模块，本节教程可以当做一个 **用户管理系统项目** 独立学习，适合新手入门，后端和前端部分也可以按需独立学习。
+
+本节大纲：
+
+- 需求分析
+- 方案设计
+- 后端开发
+- 前端开发
+
+## 一、需求分析
+
+对于用户模块，通常要具有下列功能：
+
+- 用户注册
+- 用户登录
+- 获取当前登录用户
+- 用户注销
+- 用户权限控制
+- 【管理员】管理用户
+
+具体分析每个需求：
+
+1）用户注册：用户可以通过输入账号、密码、确认密码进行注册
+
+2）用户登录：用户可以通过输入账号和密码登录
+
+3）获取当前登录用户：得到当前已经登录的用户信息（不用重复登录）
+
+4）用户注销：用户可以退出登录
+
+5）用户权限控制：用户又分为普通用户和管理员，管理员拥有整个系统的最高权限，比如可以管理其他用户
+
+6）用户管理：仅管理员可用，可以对整个系统中的用户进行管理，比如搜索用户、删除用户
+
+## 二、方案设计
+
+实现用户模块的难度不大，方案设计阶段我们需要确认：
+
+- 库表设计
+- 用户登录流程
+- 如何对用户权限进行控制？
+
+### 库表设计
+
+库名：yu_picture
+
+表名：user（用户表）
+
+鱼皮会先讲本项目需要的核心设计，再补充一些扩展设计，便于大家学习。XJ858sBsdVoQsBlQbSlEZH9bgQFu4XZchClXOymxgUA=
+
+#### 1、核心设计
+
+用户表的核心是用户登录凭证（账号密码）和个人信息，SQL 如下：
+
+```sql
+▼-- 用户表
+create table if not exists user
+(
+    id           bigint auto_increment comment 'id' primary key,
+    userAccount  varchar(256)                           not null comment '账号',
+    userPassword varchar(512)                           not null comment '密码',
+    userName     varchar(256)                           null comment '用户昵称',
+    userAvatar   varchar(1024)                          null comment '用户头像',
+    userProfile  varchar(512)                           null comment '用户简介',
+    userRole     varchar(256) default 'user'            not null comment '用户角色：user/admin',
+    editTime     datetime     default CURRENT_TIMESTAMP not null comment '编辑时间',
+    createTime   datetime     default CURRENT_TIMESTAMP not null comment '创建时间',
+    updateTime   datetime     default CURRENT_TIMESTAMP not null on update CURRENT_TIMESTAMP comment '更新时间',
+    isDelete     tinyint      default 0                 not null comment '是否删除',
+    UNIQUE KEY uk_userAccount (userAccount),
+    INDEX idx_userName (userName)
+) comment '用户' collate = utf8mb4_unicode_ci;
+```
+
+几个注意事项：
+
+1）editTime 和 updateTime 的区别：editTime 表示用户编辑个人信息的时间（需要业务代码来更新），而 updateTime 表示这条用户记录任何字段发生修改的时间（由数据库自动更新）。
+
+2）给唯一值添加唯一键（唯一索引），比如账号 userAccount，利用数据库天然防重复，同时可以增加查询效率。
+
+3）给经常用于查询的字段添加索引，比如用户昵称 userName，可以增加查询效率。
+
+💡 建议养成好习惯，将库表设计 SQL 保存到项目的目录中，比如新建 `sql/create_table.sql` 文件，这样其他开发者就能更快地了解项目。
+
+#### 2、扩展设计
+
+1）如果要实现会员功能，可以对表进行如下扩展：
+
+1. 给 userRole 字段新增枚举值 `vip`，表示会员用户，可根据该值判断用户权限
+2. 新增会员过期时间字段，可用于记录会员有效期
+3. 新增会员兑换码字段，可用于记录会员的开通方式
+4. 新增会员编号字段，可便于定位用户并提供额外服务，并增加会员归属感
+
+对应的 SQL 如下：
+
+```sql
+vipExpireTime datetime     null comment '会员过期时间',
+vipCode       varchar(128) null comment '会员兑换码',
+vipNumber     bigint       null comment '会员编号'
+```
+
+2）如果要实现用户邀请功能，可以对表进行如下扩展：
+
+1. 新增 shareCode 分享码字段，用于记录每个用户的唯一邀请标识，可拼接到邀请网址后面，比如 https://mianshiya.com/?shareCode=xxx
+2. 新增 inviteUser 字段，用于记录该用户被哪个用户邀请了，可通过这个字段查询某用户邀请的用户列表。
+
+对应的 SQL 如下：
+
+```sql
+shareCode     varchar(20)  DEFAULT NULL COMMENT '分享码',
+inviteUser    bigint       DEFAULT NULL COMMENT '邀请用户 id'
+```
+
+### 用户登录流程
+
+1）建立初始会话：前端与服务器建立连接后，服务器会为该客户端创建一个初始的匿名 Session，并将其状态保存下来。这个 Session 的 ID 会作为唯一标识，返回给前端。
+
+2）登录成功，更新会话信息：当用户在前端输入正确的账号密码并提交到后端验证成功后，后端会更新该用户的 Session，将用户的登录信息（如用户 ID、用户名等）保存到与该 Session 关联的存储中。同时，服务器会生成一个 Set-Cookie 的响应头，指示前端保存该用户的 Session ID。
+
+3）前端保存 Cookie：前端接收到后端的响应后，浏览器会自动根据 Set-Cookie 指令，将 Session ID 存储到浏览器的 Cookie 中，与该域名绑定。
+
+4）带 Cookie 的后续请求：当前端再次向相同域名的服务器发送请求时，浏览器会自动在请求头中附带之前保存的 Cookie，其中包含 Session ID。
+
+5）后端验证会话：服务器接收到请求后，从请求头中提取 Session ID，找到对应的 Session 数据。
+
+6）获取会话中存储的信息：后端通过该 Session 获取之前存储的用户信息（如登录名、权限等），从而识别用户身份并执行相应的业务逻辑。
+
+![afd3837a80c36e49d17bfb04f6a7cb21.png](./assets/jBcQuVlh8pVktFau.webp)
+
+### 如何对用户权限进行控制？
+
+可以将接口分为 4 种权限：
+
+1. 未登录也可以使用
+2. 登录用户才能使用
+3. 未登录也可以使用，但是登录用户能进行更多操作（比如登录后查看全文）
+4. 仅管理员才能使用
+
+传统的权限控制方法是，在每个接口内单独编写逻辑：先获取到当前登录用户信息，然后判断用户的权限是否符合要求。
+
+这种方法最灵活，但是会写很多重复的代码，而且其他开发者无法一眼得知接口所需要的权限。
+
+权限校验其实是一个比较通用的业务需求，一般会通过 **Spring AOP 切面 + 自定义权限校验注解 **实现统一的接口拦截和权限校验；如果有特殊的权限校验逻辑，再单独在接口中编码。
+
+💡 如果需要更复杂更灵活的权限控制，可以引入 Shiro / Spring Security / Sa-Token 等专门的权限管理框架。
+
+------
+
+OK，有了实现方案后，我们先来开发后端接口。
+
+## 三、后端开发
+
+以后每次开发接口时，都可以遵循以下流程。
+
+### 数据访问层代码生成
+
+首先利用 IDEA 连接 MySQL 数据库：
+
+![img](./assets/hElBvedKcp6BhFO5.webp)
+
+执行 SQL 脚本，创建数据库表：
+
+![img](./assets/pNIFxBDYjcoa0lGi.webp)
+
+数据访问层的代码一般包括实体类、MyBatis 的 Mapper 类和 XML 等。比起手动编写，建议使用 MyBatisX 代码生成插件，可以快速得到这些文件。6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=
+
+选中数据库的表，右键选择 MybatisX 生成器：
+
+![img](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAADDCAYAAADQvc6UAAABRWlDQ1BJQ0MgUHJvZmlsZQAAKJFjYGASSSwoyGFhYGDIzSspCnJ3UoiIjFJgf8LAwSDCIMogwMCcmFxc4BgQ4ANUwgCjUcG3awyMIPqyLsis7PPOq3QdDFcvjV3jOD1boQVTPQrgSkktTgbSf4A4LbmgqISBgTEFyFYuLykAsTuAbJEioKOA7DkgdjqEvQHEToKwj4DVhAQ5A9k3gGyB5IxEoBmML4BsnSQk8XQkNtReEOBxcfXxUQg1Mjc0dyHgXNJBSWpFCYh2zi+oLMpMzyhRcASGUqqCZ16yno6CkYGRAQMDKMwhqj/fAIcloxgHQqxAjIHBEugw5sUIsSQpBobtQPdLciLEVJYzMPBHMDBsayhILEqEO4DxG0txmrERhM29nYGBddr//5/DGRjYNRkY/l7////39v///y4Dmn+LgeHANwDrkl1AuO+pmgAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAwqADAAQAAAABAAAAwwAAAAD9b/HnAAAHlklEQVR4Ae3dP3PTWBSGcbGzM6GCKqlIBRV0dHRJFarQ0eUT8LH4BnRU0NHR0UEFVdIlFRV7TzRksomPY8uykTk/zewQfKw/9znv4yvJynLv4uLiV2dBoDiBf4qP3/ARuCRABEFAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghgg0Aj8i0JO4OzsrPv69Wv+hi2qPHr0qNvf39+iI97soRIh4f3z58/u7du3SXX7Xt7Z2enevHmzfQe+oSN2apSAPj09TSrb+XKI/f379+08+A0cNRE2ANkupk+ACNPvkSPcAAEibACyXUyfABGm3yNHuAECRNgAZLuYPgEirKlHu7u7XdyytGwHAd8jjNyng4OD7vnz51dbPT8/7z58+NB9+/bt6jU/TI+AGWHEnrx48eJ/EsSmHzx40L18+fLyzxF3ZVMjEyDCiEDjMYZZS5wiPXnyZFbJaxMhQIQRGzHvWR7XCyOCXsOmiDAi1HmPMMQjDpbpEiDCiL358eNHurW/5SnWdIBbXiDCiA38/Pnzrce2YyZ4//59F3ePLNMl4PbpiL2J0L979+7yDtHDhw8vtzzvdGnEXdvUigSIsCLAWavHp/+qM0BcXMd/q25n1vF57TYBp0a3mUzilePj4+7k5KSLb6gt6ydAhPUzXnoPR0dHl79WGTNCfBnn1uvSCJdegQhLI1vvCk+fPu2ePXt2tZOYEV6/fn31dz+shwAR1sP1cqvLntbEN9MxA9xcYjsxS1jWR4AIa2Ibzx0tc44fYX/16lV6NDFLXH+YL32jwiACRBiEbf5KcXoTIsQSpzXx4N28Ja4BQoK7rgXiydbHjx/P25TaQAJEGAguWy0+2Q8PD6/Ki4R8EVl+bzBOnZY95fq9rj9zAkTI2SxdidBHqG9+skdw43borCXO/ZcJdraPWdv22uIEiLA4q7nvvCug8WTqzQveOH26fodo7g6uFe/a17W3+nFBAkRYENRdb1vkkz1CH9cPsVy/jrhr27PqMYvENYNlHAIesRiBYwRy0V+8iXP8+/fvX11Mr7L7ECueb/r48eMqm7FuI2BGWDEG8cm+7G3NEOfmdcTQw4h9/55lhm7DekRYKQPZF2ArbXTAyu4kDYB2YxUzwg0gi/41ztHnfQG26HbGel/crVrm7tNY+/1btkOEAZ2M05r4FB7r9GbAIdxaZYrHdOsgJ/wCEQY0J74TmOKnbxxT9n3FgGGWWsVdowHtjt9Nnvf7yQM2aZU/TIAIAxrw6dOnAWtZZcoEnBpNuTuObWMEiLAx1HY0ZQJEmHJ3HNvGCBBhY6jtaMoEiJB0Z29vL6ls58vxPcO8/zfrdo5qvKO+d3Fx8Wu8zf1dW4p/cPzLly/dtv9Ts/EbcvGAHhHyfBIhZ6NSiIBTo0LNNtScABFyNiqFCBChULMNNSdAhJyNSiECRCjUbEPNCRAhZ6NSiAARCjXbUHMCRMjZqBQiQIRCzTbUnAARcjYqhQgQoVCzDTUnQIScjUohAkQo1GxDzQkQIWejUogAEQo121BzAkTI2agUIkCEQs021JwAEXI2KoUIEKFQsw01J0CEnI1KIQJEKNRsQ80JECFno1KIABEKNdtQcwJEyNmoFCJAhELNNtScABFyNiqFCBChULMNNSdAhJyNSiECRCjUbEPNCRAhZ6NSiAARCjXbUHMCRMjZqBQiQIRCzTbUnAARcjYqhQgQoVCzDTUnQIScjUohAkQo1GxDzQkQIWejUogAEQo121BzAkTI2agUIkCEQs021JwAEXI2KoUIEKFQsw01J0CEnI1KIQJEKNRsQ80JECFno1KIABEKNdtQcwJEyNmoFCJAhELNNtScABFyNiqFCBChULMNNSdAhJyNSiECRCjUbEPNCRAhZ6NSiAARCjXbUHMCRMjZqBQiQIRCzTbUnAARcjYqhQgQoVCzDTUnQIScjUohAkQo1GxDzQkQIWejUogAEQo121BzAkTI2agUIkCEQs021JwAEXI2KoUIEKFQsw01J0CEnI1KIQJEKNRsQ80JECFno1KIABEKNdtQcwJEyNmoFCJAhELNNtScABFyNiqFCBChULMNNSdAhJyNSiEC/wGgKKC4YMA4TAAAAABJRU5ErkJggg==)
+
+按照下图进行配置：
+
+![img](./assets/RKBGNOh3yMe21Hnm.webp)![img](./assets/suvboYmGN7RfYNKk.webp)
+
+可以看到生成的代码，包括实体类、Mapper![img](./assets/XLQ3q3kz7DGE97hQ.webp)
+
+我们需要将这些代码移动到项目对应的位置，比如将 Mapper 移动到 `mapper` 包、User 移动到 `model.entity` 包、Service 移动到 `service` 包。记得将有用的文件添加到 Git 进行托管。
+
+移动之后，注意修改 UserMapper.xml 等文件的包名：
+
+![img](./assets/GFyTpiYUxwY8ivC1.webp)
+
+### 数据模型开发
+
+#### 1、实体类
+
+生成的代码也许不能完全满足我们的要求，比如数据库实体类，我们可以手动更改其字段配置，指定主键策略和逻辑删除。
+
+1. id 默认是连续生成的，容易被爬虫抓取，所以更换策略为 `ASSIGN_ID` 雪花算法生成。
+2. 数据删除时默认为彻底删除记录，如果出现误删，将难以恢复，所以采用逻辑删除 —— 通过修改 isDelete 字段为 1 表示已失效的数据。
+
+修改的代码如下：
+
+```java
+▼@TableName(value ="user")
+@Data
+public class User implements Serializable {
+    /**
+     * id（要指定主键策略）
+     */
+    @TableId(type = IdType.ASSIGN_ID)
+    private Long id;
+
+    // ...
+    
+    /**
+     * 是否删除（逻辑删除）
+     */
+    @TableLogic
+    private Integer isDelete;
+}
+```
+
+使用框架的过程中，有任何疑问，都可以在官方文档查阅，比如了解 MyBatis Plus 的主键生成注解：https://baomidou.com/reference/annotation/#tableid
+
+#### 2、枚举类
+
+对于用户角色这样值的数量有限的、可枚举的字段，最好定义一个枚举类，便于在项目中获取值、减少枚举值输入错误的情况。
+
+在 `model.enums` 包下新建 UserRoleEnum：
+
+```java
+▼@Getter
+public enum UserRoleEnum {
+
+    USER("用户", "user"),
+    ADMIN("管理员", "admin");
+
+    private final String text;
+
+    private final String value;
+
+    UserRoleEnum(String text, String value) {
+        this.text = text;
+        this.value = value;
+    }
+
+    /**
+     * 根据 value 获取枚举
+     *
+     * @param value 枚举值的value
+     * @return 枚举值
+     */
+    public static UserRoleEnum getEnumByValue(String value) {
+        if (ObjUtil.isEmpty(value)) {
+            return null;
+        }
+        for (UserRoleEnum anEnum : UserRoleEnum.values()) {
+            if (anEnum.value.equals(value)) {
+                return anEnum;
+            }
+        }
+        return null;
+    }
+}
+```
+
+其中，getEnumByValue 是通过 value 找到具体的枚举对象。
+
+💡 如果枚举值特别多，可以 Map 缓存所有枚举值来加速查找，而不是遍历列表。
+
+------
+
+下面依次进行各功能接口的开发。
+
+### 用户注册
+
+#### 1、数据模型
+
+在 `model.dto.user` 下新建用于接受请求参数的类：
+
+```java
+▼@Data
+public class UserRegisterRequest implements Serializable {
+
+    private static final long serialVersionUID = 3191241716373120793L;
+
+    /**
+     * 账号
+     */
+    private String userAccount;
+
+    /**
+     * 密码
+     */
+    private String userPassword;
+
+    /**
+     * 确认密码
+     */
+    private String checkPassword;
+}
+```
+
+💡 在 Java 接口开发中，为每个接口定义一个专门的类来接收请求参数，可以提高代码的可读性和维护性，便于对参数进行统一验证和扩展，同时减少接口方法参数过多导致的复杂性，有助于在复杂场景下更清晰地管理和传递数据。
+
+#### 2、服务开发
+
+在 `service` 包的 UserService 中增加方法声明：
+
+```java
+▼/**
+ * 用户注册
+ *
+ * @param userAccount   用户账户
+ * @param userPassword  用户密码
+ * @param checkPassword 校验密码
+ * @return 新用户 id
+ */
+long userRegister(String userAccount, String userPassword, String checkPassword);
+```
+
+在 UserServiceImpl 中增加实现代码，注意多补充一些校验条件：
+
+```java
+▼@Override
+public long userRegister(String userAccount, String userPassword, String checkPassword) {
+    // 1. 校验
+    if (StrUtil.hasBlank(userAccount, userPassword, checkPassword)) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "参数为空");
+    }
+    if (userAccount.length() < 4) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "用户账号过短");
+    }
+    if (userPassword.length() < 8 || checkPassword.length() < 8) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "用户密码过短");
+    }
+    if (!userPassword.equals(checkPassword)) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "两次输入的密码不一致");
+    }
+    // 2. 检查是否重复
+    QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+    queryWrapper.eq("userAccount", userAccount);
+    long count = this.baseMapper.selectCount(queryWrapper);
+    if (count > 0) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "账号重复");
+    }
+    // 3. 加密
+    String encryptPassword = getEncryptPassword(userPassword);
+    // 4. 插入数据
+    User user = new User();
+    user.setUserAccount(userAccount);
+    user.setUserPassword(encryptPassword);
+    user.setUserName("无名");
+    user.setUserRole(UserRoleEnum.USER.getValue());
+    boolean saveResult = this.save(user);
+    if (!saveResult) {
+        throw new BusinessException(ErrorCode.SYSTEM_ERROR, "注册失败，数据库错误");
+    }
+    return user.getId();
+}
+```
+
+注意，上述代码中，我们需要将用户密码加密后进行存储。可以封装一个方法，便于后续复用：
+
+```java
+▼@Override
+public String getEncryptPassword(String userPassword) {
+    // 盐值，混淆密码
+    final String SALT = "yupi";
+    return DigestUtils.md5DigestAsHex((SALT + userPassword).getBytes());
+}
+```
+
+#### 3、接口开发
+
+在 `controller` 包中新建 UserController，新增用户注册接口：
+
+```java
+@RestController
+@RequestMapping("/user")
+public class UserController {
+
+    @Resource
+    private UserService userService;
+
+    /**
+     * 用户注册
+     */
+    @PostMapping("/register")
+    public BaseResponse<Long> userRegister(@RequestBody UserRegisterRequest userRegisterRequest) {
+        ThrowUtils.throwIf(userRegisterRequest == null, ErrorCode.PARAMS_ERROR);
+        String userAccount = userRegisterRequest.getUserAccount();
+        String userPassword = userRegisterRequest.getUserPassword();
+        String checkPassword = userRegisterRequest.getCheckPassword();
+        long result = userService.userRegister(userAccount, userPassword, checkPassword);
+        return ResultUtils.success(result);
+    }
+}
+```
+
+#### 4、测试
+
+每开发完一个接口，都可以使用 Swagger 接口文档来测试：
+
+![img](./assets/n4OZJJskiOvyB9Ly.webp)
+
+💡 测试时要尤其注意边界值和特殊值，不能只测试正常的情况。
+
+### 用户登录
+
+#### 1、数据模型
+
+在 `model.dto.user` 下新建用于接受请求参数的类：
+
+```java
+@Data
+public class UserLoginRequest implements Serializable {
+
+    private static final long serialVersionUID = 3191241716373120793L;
+
+    /**
+     * 账号
+     */
+    private String userAccount;
+
+    /**
+     * 密码
+     */
+    private String userPassword;
+}
+```
+
+#### 2、服务开发
+
+在 `service` 包的 UserService 中增加方法声明：
+
+```java
+/**
+ * 用户登录
+ *
+ * @param userAccount  用户账户
+ * @param userPassword 用户密码
+ * @param request
+ * @return 脱敏后的用户信息
+ */
+LoginUserVO userLogin(String userAccount, String userPassword, HttpServletRequest request);
+```
+
+在 UserServiceImpl 中增加实现代码，注意多补充一些校验条件，在用户登录成功后，将用户信息存储在当前的 Session 中。代码如下：
+
+```java
+@Override
+public LoginUserVO userLogin(String userAccount, String userPassword, HttpServletRequest request) {
+    // 1. 校验
+    if (StrUtil.hasBlank(userAccount, userPassword)) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "参数为空");
+    }
+    if (userAccount.length() < 4) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "账号错误");
+    }
+    if (userPassword.length() < 8) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "密码错误");
+    }
+    // 2. 加密
+    String encryptPassword = getEncryptPassword(userPassword);
+    // 查询用户是否存在
+    QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+    queryWrapper.eq("userAccount", userAccount);
+    queryWrapper.eq("userPassword", encryptPassword);
+    User user = this.baseMapper.selectOne(queryWrapper);
+    // 用户不存在
+    if (user == null) {
+        log.info("user login failed, userAccount cannot match userPassword");
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "用户不存在或密码错误");
+    }
+    // 3. 记录用户的登录态
+    request.getSession().setAttribute(USER_LOGIN_STATE, user);
+    return this.getLoginUserVO(user);
+}
+```
+
+注意，由于注册用户时存入数据库的密码是加密后的，查询用户信息时，也要对用户输入的密码进行同样算法的加密，才能跟数据库的信息对应上。
+
+可以把上述的 Session 理解为一个 Map，可以给 Map 设置 key 和 value，每个不同的 SessionID 对应的 Session 存储都是不同的，不用担心会污染。所以上述代码中，给 Session 设置了固定的 key（USER_LOGIN_STATE），可以将这个 key 值提取为常量，便于后续获取。
+
+在 `constant` 包下新建 UserConstant 类，统一声明用户相关的常量：
+
+```java
+public interface UserConstant {
+
+    /**
+     * 用户登录态键
+     */
+    String USER_LOGIN_STATE = "user_login";
+
+    //  region 权限
+
+    /**
+     * 默认角色
+     */
+    String DEFAULT_ROLE = "user";
+
+    /**
+     * 管理员角色
+     */
+    String ADMIN_ROLE = "admin";
+    
+    // endregion
+}
+```
+
+#### 3、接口开发
+
+在 UserController 中新增用户登录接口：
+
+```java
+@PostMapping("/login")
+public BaseResponse<LoginUserVO> userLogin(@RequestBody UserLoginRequest userLoginRequest, HttpServletRequest request) {
+    ThrowUtils.throwIf(userLoginRequest == null, ErrorCode.PARAMS_ERROR);
+    String userAccount = userLoginRequest.getUserAccount();
+    String userPassword = userLoginRequest.getUserPassword();
+    LoginUserVO loginUserVO = userService.userLogin(userAccount, userPassword, request);
+    return ResultUtils.success(loginUserVO);
+}
+```
+
+### 获取当前登录用户
+
+可以从 request 请求对象对应的 Session 中直接获取到之前保存的登录用户信息，无需其他请求参数。
+
+#### 1、服务开发
+
+在 `service` 包的 UserService 中增加方法声明：
+
+```java
+▼/**
+ * 获取当前登录用户
+ *
+ * @param request
+ * @return
+ */
+User getLoginUser(HttpServletRequest request);
+```
+
+在 UserServiceImpl 中增加实现代码，此处为了保证获取到的数据始终是最新的，先从 Session 中获取登录用户的 id，然后从数据库中查询最新的结果。代码如下：
+
+```java
+@Override
+public User getLoginUser(HttpServletRequest request) {
+    // 先判断是否已登录
+    Object userObj = request.getSession().getAttribute(USER_LOGIN_STATE);
+    User currentUser = (User) userObj;
+    if (currentUser == null || currentUser.getId() == null) {
+        throw new BusinessException(ErrorCode.NOT_LOGIN_ERROR);
+    }
+    // 从数据库查询（追求性能的话可以注释，直接返回上述结果）
+    long userId = currentUser.getId();
+    currentUser = this.getById(userId);
+    if (currentUser == null) {
+        throw new BusinessException(ErrorCode.NOT_LOGIN_ERROR);
+    }
+    return currentUser;
+}
+```
+
+#### 2、接口开发
+
+在 UserController 中新增获取当前登录用户接口：
+
+```java
+@GetMapping("/get/login")
+public BaseResponse<LoginUserVO> getLoginUser(HttpServletRequest request) {
+    User loginUser = userService.getLoginUser(request);
+    return ResultUtils.success(userService.getLoginUserVO(loginUser));
+}
+```
+
+注意，上述代码是直接将数据库查到的所有信息都返回给了前端（包括密码），可能存在信息泄露的安全风险。因此，我们还需要对返回结果进行脱敏处理。
+
+#### 3、数据脱敏
+
+在 `model.vo` 包下新建 `LoginUserVO` 类，表示脱敏后的登录用户信息：
+
+```java
+@Data
+public class LoginUserVO implements Serializable {
+
+    /**
+     * 用户 id
+     */
+    private Long id;
+
+    /**
+     * 账号
+     */
+    private String userAccount;
+
+    /**
+     * 用户昵称
+     */
+    private String userName;
+
+    /**
+     * 用户头像
+     */
+    private String userAvatar;
+
+    /**
+     * 用户简介
+     */
+    private String userProfile;
+
+    /**
+     * 用户角色：user/admin
+     */
+    private String userRole;
+
+    /**
+     * 创建时间
+     */
+    private Date createTime;
+
+    /**
+     * 更新时间
+     */
+    private Date updateTime;
+
+    private static final long serialVersionUID = 1L;
+}
+```
+
+在 UserService 中新增获取脱敏后的已登录用户信息方法：qHT6Kxg12X1vklSWA3QVO0Z9aqth3Yj5Z1UQTagntCA=
+
+```java
+/**
+ * 获取脱敏的已登录用户信息
+ *
+ * @return
+ */
+LoginUserVO getLoginUserVO(User user);
+```
+
+编写方法对应的实现类，其实就是将 User 类的属性复制到 LoginUserVO 中，不存在的字段就被过滤掉了：
+
+```java
+@Override
+public LoginUserVO getLoginUserVO(User user) {
+    if (user == null) {
+        return null;
+    }
+    LoginUserVO loginUserVO = new LoginUserVO();
+    BeanUtils.copyProperties(user, loginUserVO);
+    return loginUserVO;
+}
+```
+
+修改 Controller 的 getLoginUser 接口，改为返回脱敏后的用户信息：
+
+```java
+@GetMapping("/get/login")
+public BaseResponse<LoginUserVO> getLoginUser(HttpServletRequest request) {
+    User user = userService.getLoginUser(request);
+    return ResultUtils.success(userService.getLoginUserVO(user));
+}
+```
+
+### 用户注销
+
+可以从 request 请求对象对应的 Session 中直接获取到之前保存的登录用户信息，来完成注销，无需其他请求参数。
+
+#### 1、服务开发
+
+在 `service` 包的 UserService 中增加方法声明：
+
+```java
+/**
+ * 用户注销
+ *
+ * @param request
+ * @return
+ */
+boolean userLogout(HttpServletRequest request);
+```
+
+在 UserServiceImpl 中增加实现代码，从 Session 中移除掉当前用户的登录态即可：
+
+```java
+▼@Override
+public boolean userLogout(HttpServletRequest request) {
+    // 先判断是否已登录
+    Object userObj = request.getSession().getAttribute(USER_LOGIN_STATE);
+    if (userObj == null) {
+        throw new BusinessException(ErrorCode.OPERATION_ERROR, "未登录");
+    }
+    // 移除登录态
+    request.getSession().removeAttribute(USER_LOGIN_STATE);
+    return true;
+}
+```
+
+#### 2、接口开发
+
+在 UserController 中新增用户注销接口：
+
+```java
+@PostMapping("/logout")
+public BaseResponse<Boolean> userLogout(HttpServletRequest request) {
+    ThrowUtils.throwIf(request == null, ErrorCode.PARAMS_ERROR);
+    boolean result = userService.userLogout(request);
+    return ResultUtils.success(result);
+}
+```
+
+### 用户权限控制
+
+在本节教程的方案设计中讲到：权限校验其实是一个比较通用的业务需求，一般会通过 **Spring AOP 切面 + 自定义权限校验注解 **实现统一的接口拦截和权限校验；如果有特殊的权限校验逻辑，再单独在接口中编码。
+
+#### 1、权限校验注解
+
+首先编写权限校验注解，放到 `annotation` 包下：
+
+```java
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface AuthCheck {
+
+    /**
+     * 必须有某个角色
+     */
+    String mustRole() default "";
+}
+```
+
+#### 2、权限校验切面
+
+编写权限校验 AOP，采用环绕通知，在 **打上该注解的方法 **执行前后进行一些额外的操作，比如校验权限。
+
+代码如下，放到 `aop` 包下：
+
+```java
+@Aspect
+@Component
+public class AuthInterceptor {
+
+    @Resource
+    private UserService userService;
+
+    /**
+     * 执行拦截
+     *
+     * @param joinPoint 切入点
+     * @param authCheck 权限校验注解
+     */
+    @Around("@annotation(authCheck)")
+    public Object doInterceptor(ProceedingJoinPoint joinPoint, AuthCheck authCheck) throws Throwable {
+        String mustRole = authCheck.mustRole();
+        RequestAttributes requestAttributes = RequestContextHolder.currentRequestAttributes();
+        HttpServletRequest request = ((ServletRequestAttributes) requestAttributes).getRequest();
+        // 当前登录用户
+        User loginUser = userService.getLoginUser(request);
+        UserRoleEnum mustRoleEnum = UserRoleEnum.getEnumByValue(mustRole);
+        // 不需要权限，放行
+        if (mustRoleEnum == null) {
+            return joinPoint.proceed();
+        }
+        // 以下为：必须有该权限才通过
+        // 获取当前用户具有的权限
+        UserRoleEnum userRoleEnum = UserRoleEnum.getEnumByValue(loginUser.getUserRole());
+        // 没有权限，拒绝
+        if (userRoleEnum == null) {
+            throw new BusinessException(ErrorCode.NO_AUTH_ERROR);
+        }
+        // 要求必须有管理员权限，但用户没有管理员权限，拒绝
+        if (UserRoleEnum.ADMIN.equals(mustRoleEnum) && !UserRoleEnum.ADMIN.equals(userRoleEnum)) {
+            throw new BusinessException(ErrorCode.NO_AUTH_ERROR);
+        }
+        // 通过权限校验，放行
+        return joinPoint.proceed();
+    }
+}
+```
+
+#### 3、使用注解
+
+只要给方法添加了 @AuthCheck 注解，就必须要登录，否则会抛出异常。
+
+可以设置 mustRole 为管理员，这样仅管理员才能使用该接口：
+
+```java
+@AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
+```
+
+对于不需要登录就能使用的接口，不需要使用该注解。
+
+### 用户管理
+
+用户管理功能具体可以拆分为：
+
+- 【管理员】创建用户
+- 【管理员】根据 id 删除用户
+- 【管理员】更新用户
+- 【管理员】分页获取用户列表（需要脱敏）
+- 【管理员】根据 id 获取用户（未脱敏）
+- 根据 id 获取用户（脱敏）
+
+#### 1、数据模型
+
+1）每个操作都需要提供一个请求类，都放在 `dto.user` 包下。
+
+![img](./assets/VrMvMbj2tUwssOzR.webp)
+
+用户创建请求：
+
+```java
+@Data
+public class UserAddRequest implements Serializable {
+
+    /**
+     * 用户昵称
+     */
+    private String userName;
+
+    /**
+     * 账号
+     */
+    private String userAccount;
+
+    /**
+     * 用户头像
+     */
+    private String userAvatar;
+
+    /**
+     * 用户简介
+     */
+    private String userProfile;
+
+    /**
+     * 用户角色: user, admin
+     */
+    private String userRole;
+
+    private static final long serialVersionUID = 1L;
+}
+```
+
+用户更新请求：
+
+```java
+@Data
+public class UserUpdateRequest implements Serializable {
+
+    /**
+     * id
+     */
+    private Long id;
+
+    /**
+     * 用户昵称
+     */
+    private String userName;
+
+    /**
+     * 用户头像
+     */
+    private String userAvatar;
+
+    /**
+     * 简介
+     */
+    private String userProfile;
+
+    /**
+     * 用户角色：user/admin
+     */
+    private String userRole;
+
+    private static final long serialVersionUID = 1L;
+}
+```
+
+用户查询请求，需要继承公共包中的 `PageRequest` 来支持分页查询：
+
+```java
+@EqualsAndHashCode(callSuper = true)
+@Data
+public class UserQueryRequest extends PageRequest implements Serializable {
+
+    /**
+     * id
+     */
+    private Long id;
+
+    /**
+     * 用户昵称
+     */
+    private String userName;
+
+    /**
+     * 账号
+     */
+    private String userAccount;
+
+    /**
+     * 简介
+     */
+    private String userProfile;
+
+    /**
+     * 用户角色：user/admin/ban
+     */
+    private String userRole;
+
+    private static final long serialVersionUID = 1L;
+}
+```
+
+2）由于要提供获取用户信息的接口，需要和获取当前登录用户接口一样对用户信息进行脱敏。6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=
+
+在 `model.vo` 包下新建 UserVO，表示脱敏后的用户：
+
+```java
+@Data
+public class UserVO implements Serializable {
+
+    /**
+     * id
+     */
+    private Long id;
+    
+    /**
+     * 账号
+     */
+    private String userAccount;
+
+    /**
+     * 用户昵称
+     */
+    private String userName;
+
+    /**
+     * 用户头像
+     */
+    private String userAvatar;
+
+    /**
+     * 用户简介
+     */
+    private String userProfile;
+
+    /**
+     * 用户角色：user/admin
+     */
+    private String userRole;
+
+    /**
+     * 创建时间
+     */
+    private Date createTime;
+
+    private static final long serialVersionUID = 1L;
+}
+```
+
+#### 2、服务开发
+
+1）在 UserService 中编写获取脱敏后的单个用户信息、获取脱敏后的用户列表方法：
+
+```java
+@Override
+public UserVO getUserVO(User user) {
+    if (user == null) {
+        return null;
+    }
+    UserVO userVO = new UserVO();
+    BeanUtils.copyProperties(user, userVO);
+    return userVO;
+}
+
+@Override
+public List<UserVO> getUserVOList(List<User> userList) {
+    if (CollUtil.isEmpty(userList)) {
+        return new ArrayList<>();
+    }
+    return userList.stream().map(this::getUserVO).collect(Collectors.toList());
+}
+```
+
+2）除了上述方法外，对于分页查询接口，需要根据用户传入的参数来构造 SQL 查询。由于使用 MyBatis Plus 框架，不用自己拼接 SQL 了，而是通过构造 QueryWrapper 对象来生成 SQL 查询。/MBNmaRtUhzDE9b4tB/jsqs1ClvvhzK+S4KVLPihc/I=
+
+可以在 UserService 中编写一个方法，专门用于将查询请求转为 QueryWrapper 对象：
+
+```java
+@Override
+public QueryWrapper<User> getQueryWrapper(UserQueryRequest userQueryRequest) {
+    if (userQueryRequest == null) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR, "请求参数为空");
+    }
+    Long id = userQueryRequest.getId();
+    String userAccount = userQueryRequest.getUserAccount();
+    String userName = userQueryRequest.getUserName();
+    String userProfile = userQueryRequest.getUserProfile();
+    String userRole = userQueryRequest.getUserRole();
+    String sortField = userQueryRequest.getSortField();
+    String sortOrder = userQueryRequest.getSortOrder();
+    QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+    queryWrapper.eq(ObjUtil.isNotNull(id), "id", id);
+    queryWrapper.eq(StrUtil.isNotBlank(userRole), "userRole", userRole);
+    queryWrapper.like(StrUtil.isNotBlank(userAccount), "userAccount", userAccount);
+    queryWrapper.like(StrUtil.isNotBlank(userName), "userName", userName);
+    queryWrapper.like(StrUtil.isNotBlank(userProfile), "userProfile", userProfile);
+    queryWrapper.orderBy(StrUtil.isNotEmpty(sortField), sortOrder.equals("ascend"), sortField);
+    return queryWrapper;
+}
+```
+
+#### 3、接口开发
+
+上述功能其实都是样板代码，俗称 “增删改查”。
+
+代码实现比较简单，注意添加对应的权限注解、做好参数校验即可：
+
+```java
+/**
+ * 创建用户
+ */
+@PostMapping("/add")
+@AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
+public BaseResponse<Long> addUser(@RequestBody UserAddRequest userAddRequest) {
+    ThrowUtils.throwIf(userAddRequest == null, ErrorCode.PARAMS_ERROR);
+    User user = new User();
+    BeanUtils.copyProperties(userAddRequest, user);
+    // 默认密码 12345678
+    final String DEFAULT_PASSWORD = "12345678";
+    String encryptPassword = userService.getEncryptPassword(DEFAULT_PASSWORD);
+    user.setUserPassword(encryptPassword);
+    boolean result = userService.save(user);
+    ThrowUtils.throwIf(!result, ErrorCode.OPERATION_ERROR);
+    return ResultUtils.success(user.getId());
+}
+
+/**
+ * 根据 id 获取用户（仅管理员）
+ */
+@GetMapping("/get")
+@AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
+public BaseResponse<User> getUserById(long id) {
+    ThrowUtils.throwIf(id <= 0, ErrorCode.PARAMS_ERROR);
+    User user = userService.getById(id);
+    ThrowUtils.throwIf(user == null, ErrorCode.NOT_FOUND_ERROR);
+    return ResultUtils.success(user);
+}
+
+/**
+ * 根据 id 获取包装类
+ */
+@GetMapping("/get/vo")
+public BaseResponse<UserVO> getUserVOById(long id) {
+    BaseResponse<User> response = getUserById(id);
+    User user = response.getData();
+    return ResultUtils.success(userService.getUserVO(user));
+}
+
+/**
+ * 删除用户
+ */
+@PostMapping("/delete")
+@AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
+public BaseResponse<Boolean> deleteUser(@RequestBody DeleteRequest deleteRequest) {
+    if (deleteRequest == null || deleteRequest.getId() <= 0) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR);
+    }
+    boolean b = userService.removeById(deleteRequest.getId());
+    return ResultUtils.success(b);
+}
+
+/**
+ * 更新用户
+ */
+@PostMapping("/update")
+@AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
+public BaseResponse<Boolean> updateUser(@RequestBody UserUpdateRequest userUpdateRequest) {
+    if (userUpdateRequest == null || userUpdateRequest.getId() == null) {
+        throw new BusinessException(ErrorCode.PARAMS_ERROR);
+    }
+    User user = new User();
+    BeanUtils.copyProperties(userUpdateRequest, user);
+    boolean result = userService.updateById(user);
+    ThrowUtils.throwIf(!result, ErrorCode.OPERATION_ERROR);
+    return ResultUtils.success(true);
+}
+
+/**
+ * 分页获取用户封装列表（仅管理员）
+ *
+ * @param userQueryRequest 查询请求参数
+ */
+@PostMapping("/list/page/vo")
+@AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
+public BaseResponse<Page<UserVO>> listUserVOByPage(@RequestBody UserQueryRequest userQueryRequest) {
+    ThrowUtils.throwIf(userQueryRequest == null, ErrorCode.PARAMS_ERROR);
+    long current = userQueryRequest.getCurrent();
+    long pageSize = userQueryRequest.getPageSize();
+    Page<User> userPage = userService.page(new Page<>(current, pageSize),
+            userService.getQueryWrapper(userQueryRequest));
+    Page<UserVO> userVOPage = new Page<>(current, pageSize, userPage.getTotal());
+    List<UserVO> userVOList = userService.getUserVOList(userPage.getRecords());
+    userVOPage.setRecords(userVOList);
+    return ResultUtils.success(userVOPage);
+}
+```
+
+💡 有同学可能会有疑惑：不是说不要在 Controller 中写业务逻辑代码么？
+
+我的建议是开发时要灵活一些，我们要保证 Controller 的精简没错，但不代表什么代码都不在 Controller 里写。对于我们上述的代码，根本就没有复杂的业务逻辑，如果非要抽一层 Service 方法也不是不行，但会更麻烦一些。
+
+#### 4、分页功能修复
+
+使用 Swagger 接口文档依次对上述接口进行测试，发现 listUserVOByPage 接口有一些问题！
+
+分页好像没有生效，还是查出了全部数据：
+
+![img](./assets/vBDbyN26BpYczr0c.webp)
+
+由于我们用的是 MyBatis Plus 来操作数据库，所以需要通过 [官方文档](https://baomidou.com/plugins/pagination/) 来查询解决方案。
+
+查阅后发现，原来必须要配置一个分页插件。**必须要注意，本项目使用的 v3.5.9 版本引入分页插件的方式和之前不同！v3.5.9 版本后需要独立安装分页插件依赖！！！**
+
+![img](./assets/orvnNMAa8xXIzKOG.webp)
+
+在 pom.xml 中引入分页插件依赖：
+
+```xml
+<!-- MyBatis Plus 分页插件 -->
+<dependency>
+    <groupId>com.baomidou</groupId>
+    <artifactId>mybatis-plus-jsqlparser-4.9</artifactId>
+</dependency>
+```
+
+光引入这一条，大概率是无法成功下载依赖的，还要在 pom.xml 的依赖管理配置中补充 `mybatis-plus-bom`：
+
+```xml
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>${spring-boot.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-bom</artifactId>
+            <version>3.5.9</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+```
+
+依赖下载成功后，在 `config` 包下新建 MyBatis Plus 拦截器配置，添加分页插件：
+
+```java
+@Configuration
+@MapperScan("com.yupi.yupicturebackend.mapper")
+public class MyBatisPlusConfig {
+
+    /**
+     * 拦截器配置
+     *
+     * @return {@link MybatisPlusInterceptor}
+     */
+    @Bean
+    public MybatisPlusInterceptor mybatisPlusInterceptor() {
+        MybatisPlusInterceptor interceptor = new MybatisPlusInterceptor();
+        // 分页插件
+        interceptor.addInnerInterceptor(new PaginationInnerInterceptor(DbType.MYSQL));
+        return interceptor;
+    }
+}
+```
+
+重启项目，这次就能正常完成分页了~
+
+#### 5、数据精度修复
+
+但是，在测试中，如果你打开 F12 控制台，利用预览来查看响应数据，就会发现另一个问题：id 的最后两位好像都变成 0 了！6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=
+
+![img](./assets/WeAd1XjAm58WdIGt.webp)
+
+但是在响应中、以及 Swagger 中查看，却是正常的：
+
+![img](./assets/AxV74Rqu2JNg3GMC.webp)
+
+这是由于前端 JS 的精度范围有限，我们后端返回的 id 范围过大，导致前端精度丢失，会影响前端页面获取到的数据结果。
+
+为了解决这个问题，可以在后端 `config` 包下新建一个全局 JSON 配置，将整个后端 Spring MVC 接口返回值的长整型数字转换为字符串进行返回，从而集中解决问题。
+
+```java
+/**
+ * Spring MVC Json 配置
+ */
+@JsonComponent
+public class JsonConfig {
+
+    /**
+     * 添加 Long 转 json 精度丢失的配置
+     */
+    @Bean
+    public ObjectMapper jacksonObjectMapper(Jackson2ObjectMapperBuilder builder) {
+        ObjectMapper objectMapper = builder.createXmlMapper(false).build();
+        SimpleModule module = new SimpleModule();
+        module.addSerializer(Long.class, ToStringSerializer.instance);
+        module.addSerializer(Long.TYPE, ToStringSerializer.instance);
+        objectMapper.registerModule(module);
+        return objectMapper;
+    }
+}
+```
+
+重启项目进行测试，这次看到的 id 值就正常了：
+
+![img](./assets/BcMmyLnbxRWiT0VT.webp)
+
+至此，用户相关的后端接口开发完毕，大家可以按需完善上述代码。
+
+## 四、前端开发
+
+### 新建页面和路由
+
+按照下图的结构新建页面文件：
+
+![img](data:image/png;base64,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)
+
+修改 router/index.ts 的路由配置：
+
+```typescript
+复制代码routes: [
+  {
+    path: '/',
+    name: '主页',
+    component: HomePage,
+  },
+  {
+    path: '/user/login',
+    name: '用户登录',
+    component: UserLoginPage,
+  },
+  {
+    path: '/user/register',
+    name: '用户注册',
+    component: UserRegisterPage,
+  },
+  {
+    path: '/admin/userManage',
+    name: '用户管理',
+    component: UserManagePage,
+  },
+],
+```
+
+记得执行一下 openapi 命令生成接口对应的请求代码，每次后端改动时都需要这么做。
+
+### 获取当前登录用户
+
+在之前的教程中，已经创建了前端登录用户的状态管理文件 useLoginUserStore.ts。现在后端提供了获取当前登录用户的接口，直接修改 fetchLoginUser 函数即可：
+
+```typescript
+async function fetchLoginUser() {
+  const res = await getLoginUserUsingGet()
+  if (res.data.code === 0 && res.data.data) {
+    loginUser.value = res.data.data
+  }
+}
+```
+
+可以顺便给 loginUser 增加 TypeScript 类型，这样在后续开发时就会有字段提示：cT00UyE1JKn/y8Q147TQRzbDavEs+V72bbBFCS1wu6g=
+
+```typescript
+const loginUser = ref<API.LoginUserVO>({
+  userName: '未登录',
+})
+```
+
+之前在 GlobalHeader 中已经编写好显示当前登录用户信息的页面代码：
+
+```typescript
+<div class="user-login-status">
+  <div v-if="loginUserStore.loginUser.id">
+    {{ loginUserStore.loginUser.userName ?? '无名' }}
+  </div>
+  <div v-else>
+    <a-button type="primary" href="/user/login">登录</a-button>
+  </div>
+</div>
+```
+
+### 用户登录页面
+
+开发 UserLoginPage.vue，可以基于 [Ant Design 的表单组件](https://antdv.com/components/form-cn) 快速开发登录页面。
+
+先开发基础页面，可以按照需要增加一些前端校验，代码如下：
+
+```vue
+<template>
+  <div id="userLoginPage">
+    <h2 class="title">鱼皮云图库 - 用户登录</h2>
+    <div class="desc">企业级智能协同云图库</div>
+    <a-form :model="formState" name="basic" autocomplete="off" @finish="handleSubmit">
+      <a-form-item name="userAccount" :rules="[{ required: true, message: '请输入账号' }]">
+        <a-input v-model:value="formState.userAccount" placeholder="请输入账号" />
+      </a-form-item>
+      <a-form-item
+        name="userPassword"
+        :rules="[
+          { required: true, message: '请输入密码' },
+          { min: 8, message: '密码不能小于 8 位' },
+        ]"
+      >
+        <a-input-password v-model:value="formState.userPassword" placeholder="请输入密码" />
+      </a-form-item>
+      <div class="tips">
+        没有账号？
+        <RouterLink to="/user/register">去注册</RouterLink>
+      </div>
+      <a-form-item>
+        <a-button type="primary" html-type="submit" style="width: 100%">登录</a-button>
+      </a-form-item>
+    </a-form>
+  </div>
+</template>
+```
+
+定义一个响应式变量来接受表单输入的值：
+
+```typescript
+const formState = reactive<API.UserLoginRequest>({
+  userAccount: '',
+  userPassword: '',
+})
+```
+
+编写 CSS 样式，美化页面：
+
+```css
+#userLoginPage {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.desc {
+  text-align: center;
+  color: #bbb;
+  margin-bottom: 16px;
+}
+
+.tips {
+  margin-bottom: 16px;
+  color: #bbb;
+  font-size: 13px;
+  text-align: right;
+}
+```
+
+编写表单提交后执行的函数，登陆成功后需要在全局状态中记录当前登录用户的信息，并跳转到主页：bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+
+```typescript
+const router = useRouter()
+const loginUserStore = useLoginUserStore()
+
+/**
+ * 提交表单
+ * @param values
+ */
+const handleSubmit = async (values: any) => {
+  const res = await userLoginUsingPost(values)
+  // 登录成功，把登录态保存到全局状态中
+  if (res.data.code === 0 && res.data.data) {
+    await loginUserStore.fetchLoginUser()
+    message.success('登录成功')
+    router.push({
+      path: '/',
+      replace: true,
+    })
+  } else {
+    message.error('登录失败，' + res.data.message)
+  }
+}
+```
+
+页面效果如图：
+
+![img](./assets/wDYKxTTxwHXj7E3f.webp)
+
+### 用户注册页面
+
+同样使用表单组件，在用户登录页面的基础上调整即可，涉及到更多表单项的填写：
+
+```vue
+<template>
+  <div id="userRegisterPage">
+    <h2 class="title">鱼皮云图库 - 用户注册</h2>
+    <div class="desc">企业级智能协同云图库</div>
+    <a-form
+      :model="formState"
+      name="basic"
+      label-align="left"
+      autocomplete="off"
+      @finish="handleSubmit"
+    >
+      <a-form-item name="userAccount" :rules="[{ required: true, message: '请输入账号' }]">
+        <a-input v-model:value="formState.userAccount" placeholder="请输入账号" />
+      </a-form-item>
+      <a-form-item
+        name="userPassword"
+        :rules="[
+          { required: true, message: '请输入密码' },
+          { min: 8, message: '密码不能小于 8 位' },
+        ]"
+      >
+        <a-input-password v-model:value="formState.userPassword" placeholder="请输入密码" />
+      </a-form-item>
+      <a-form-item
+        name="checkPassword"
+        :rules="[
+          { required: true, message: '请输入确认密码' },
+          { min: 8, message: '确认密码不能小于 8 位' },
+        ]"
+      >
+        <a-input-password v-model:value="formState.checkPassword" placeholder="请输入确认密码" />
+      </a-form-item>
+      <div class="tips">
+        已有账号？
+        <RouterLink to="/user/login">去登录</RouterLink>
+      </div>
+      <a-form-item>
+        <a-button type="primary" html-type="submit" style="width: 100%">注册</a-button>
+      </a-form-item>
+    </a-form>
+  </div>
+</template>
+```
+
+定义表单信息变量：
+
+```typescript
+const formState = reactive<API.UserRegisterRequest>({
+  userAccount: '',
+  userPassword: '',
+  checkPassword: '',
+})
+```
+
+编写提交表单函数，可以增加一些前端校验，并且在注册成功后跳转到用户登录页：cT00UyE1JKn/y8Q147TQRzbDavEs+V72bbBFCS1wu6g=
+
+```typescript
+const router = useRouter()
+
+/**
+ * 提交表单
+ * @param values
+ */
+const handleSubmit = async (values: any) => {
+  // 判断两次输入的密码是否一致
+  if (formState.userPassword !== formState.checkPassword) {
+    message.error('二次输入的密码不一致')
+    return
+  }
+  const res = await userRegisterUsingPost(values)
+  // 注册成功，跳转到登录页面
+  if (res.data.code === 0 && res.data.data) {
+    message.success('注册成功')
+    router.push({
+      path: '/user/login',
+      replace: true,
+    })
+  } else {
+    message.error('注册失败，' + res.data.message)
+  }
+}
+```
+
+页面效果如图：
+
+![img](./assets/uTQ3W8N8eLCze0G9.webp)
+
+### 用户注销
+
+一般鼠标悬浮在右上角用户头像时，会展示包含用户注销（退出登录）功能的下拉菜单。
+
+先开发页面结构：
+
+```vue
+<div v-if="loginUserStore.loginUser.id">
+  <a-dropdown>
+    <ASpace>
+      <a-avatar :src="loginUserStore.loginUser.userAvatar" />
+      {{ loginUserStore.loginUser.userName ?? '无名' }}
+    </ASpace>
+    <template #overlay>
+      <a-menu>
+        <a-menu-item @click="doLogout">
+          <LogoutOutlined />
+          退出登录
+        </a-menu-item>
+      </a-menu>
+    </template>
+  </a-dropdown>
+</div>
+```
+
+编写用户注销事件函数，退出登录后跳转到登录页：
+
+```typescript
+// 用户注销
+const doLogout = async () => {
+  const res = await userLogoutUsingPost()
+  console.log(res)
+  if (res.data.code === 0) {
+    loginUserStore.setLoginUser({
+      userName: '未登录',
+    })
+    message.success('退出登录成功')
+    await router.push('/user/login')
+  } else {
+    message.error('退出登录失败，' + res.data.message)
+  }
+}
+```
+
+效果如图：
+
+![img](./assets/Z9g6WnCBwRMOaHFU.webp)
+
+### 用户管理页面
+
+需求：允许管理员查看已注册的用户信息，能够根据用户名称搜索用户、并删除非法用户。
+
+需要注意，要防止普通用户也能看到用户信息，所以要增加一定的权限控制，可以分为页面开发和权限控制两个步骤来实现。
+
+编写页面：上方搜索栏，下方表格，表格需要支持分页。
+
+我们可以拆分为几个步骤来开发：
+
+#### 1、表格
+
+1）利用 [Ant Design 的表格组件](https://antdv.com/components/table-cn#components-table-demo-basic)，找到需要的组件进行复制，先展示全部用户信息。bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+
+![img](data:image/png;base64,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)
+
+2）只需要根据自己的数据表，编写 columns 表格列，并传入获取到的 data 数据，组件就能自动帮我们展示出表格，非常方便。
+
+定义表格列：
+
+```typescript
+const columns = [
+  {
+    title: 'id',
+    dataIndex: 'id',
+  },
+  {
+    title: '账号',
+    dataIndex: 'userAccount',
+  },
+  {
+    title: '用户名',
+    dataIndex: 'userName',
+  },
+  {
+    title: '头像',
+    dataIndex: 'userAvatar',
+  },
+  {
+    title: '简介',
+    dataIndex: 'userProfile',
+  },
+  {
+    title: '用户角色',
+    dataIndex: 'userRole',
+  },
+  {
+    title: '创建时间',
+    dataIndex: 'createTime',
+  },
+  {
+    title: '更新时间',
+    dataIndex: 'updateTime',
+  },
+  {
+    title: '操作',
+    key: 'action',
+  },
+]
+```
+
+3）从后端获取数据：
+
+```typescript
+// 数据
+const dataList = ref([])
+const total = ref(0)
+
+// 搜索条件
+const searchParams = reactive<API.UserQueryRequest>({
+  current: 1,
+  pageSize: 10,
+})
+
+// 获取数据
+const fetchData = async () => {
+  const res = await listUserVoByPageUsingPost({
+    ...searchParams
+  })
+  if (res.data.data) {
+    dataList.value = res.data.data.records ?? []
+    total.value = res.data.data.total ?? 0
+  } else {
+    message.error('获取数据失败，' + res.data.message)
+  }
+}
+
+// 页面加载时请求一次
+onMounted(() => {
+  fetchData()
+})
+```
+
+注意，上述代码中，使用 onMounted 包裹获取数据的函数，可以使得在页面加载时仅发送一次请求，避免重复获取。
+
+运行，可以看到数据被正常加载，但是显然展示效果并不好。
+
+4）对于图片、用户角色、创建时间、更新时间之类的数据，我们可以有更好的展示方式。bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+
+表格组件支持我们使用 Vue 的插槽自定义列的展示，参考 Demo 有样学样修改即可。
+
+```tsx
+<template #bodyCell="{ column, record }">
+  <template v-if="column.dataIndex === 'userAvatar'">
+    <a-image :src="record.userAvatar" :width="120" />
+  </template>
+  <template v-else-if="column.dataIndex === 'userRole'">
+    <div v-if="record.userRole === 'admin'">
+      <a-tag color="green">管理员</a-tag>
+    </div>
+    <div v-else>
+      <a-tag color="blue">普通用户</a-tag>
+    </div>
+  </template>
+  <template v-else-if="column.dataIndex === 'createTime'">
+    {{ dayjs(record.createTime).format('YYYY-MM-DD HH:mm:ss') }}
+  </template>
+  <template v-else-if="column.key === 'action'">
+    <a-button danger>删除</a-button>
+  </template>
+</template>
+```
+
+效果如图：
+
+![img](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAADDCAYAAADQvc6UAAABRWlDQ1BJQ0MgUHJvZmlsZQAAKJFjYGASSSwoyGFhYGDIzSspCnJ3UoiIjFJgf8LAwSDCIMogwMCcmFxc4BgQ4ANUwgCjUcG3awyMIPqyLsis7PPOq3QdDFcvjV3jOD1boQVTPQrgSkktTgbSf4A4LbmgqISBgTEFyFYuLykAsTuAbJEioKOA7DkgdjqEvQHEToKwj4DVhAQ5A9k3gGyB5IxEoBmML4BsnSQk8XQkNtReEOBxcfXxUQg1Mjc0dyHgXNJBSWpFCYh2zi+oLMpMzyhRcASGUqqCZ16yno6CkYGRAQMDKMwhqj/fAIcloxgHQqxAjIHBEugw5sUIsSQpBobtQPdLciLEVJYzMPBHMDBsayhILEqEO4DxG0txmrERhM29nYGBddr//5/DGRjYNRkY/l7////39v///y4Dmn+LgeHANwDrkl1AuO+pmgAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAwqADAAQAAAABAAAAwwAAAAD9b/HnAAAHlklEQVR4Ae3dP3PTWBSGcbGzM6GCKqlIBRV0dHRJFarQ0eUT8LH4BnRU0NHR0UEFVdIlFRV7TzRksomPY8uykTk/zewQfKw/9znv4yvJynLv4uLiV2dBoDiBf4qP3/ARuCRABEFAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghggQAQZQKAnYEaQBAQaASKIAQJEkAEEegJmBElAoBEgghgg0Aj8i0JO4OzsrPv69Wv+hi2qPHr0qNvf39+iI97soRIh4f3z58/u7du3SXX7Xt7Z2enevHmzfQe+oSN2apSAPj09TSrb+XKI/f379+08+A0cNRE2ANkupk+ACNPvkSPcAAEibACyXUyfABGm3yNHuAECRNgAZLuYPgEirKlHu7u7XdyytGwHAd8jjNyng4OD7vnz51dbPT8/7z58+NB9+/bt6jU/TI+AGWHEnrx48eJ/EsSmHzx40L18+fLyzxF3ZVMjEyDCiEDjMYZZS5wiPXnyZFbJaxMhQIQRGzHvWR7XCyOCXsOmiDAi1HmPMMQjDpbpEiDCiL358eNHurW/5SnWdIBbXiDCiA38/Pnzrce2YyZ4//59F3ePLNMl4PbpiL2J0L979+7yDtHDhw8vtzzvdGnEXdvUigSIsCLAWavHp/+qM0BcXMd/q25n1vF57TYBp0a3mUzilePj4+7k5KSLb6gt6ydAhPUzXnoPR0dHl79WGTNCfBnn1uvSCJdegQhLI1vvCk+fPu2ePXt2tZOYEV6/fn31dz+shwAR1sP1cqvLntbEN9MxA9xcYjsxS1jWR4AIa2Ibzx0tc44fYX/16lV6NDFLXH+YL32jwiACRBiEbf5KcXoTIsQSpzXx4N28Ja4BQoK7rgXiydbHjx/P25TaQAJEGAguWy0+2Q8PD6/Ki4R8EVl+bzBOnZY95fq9rj9zAkTI2SxdidBHqG9+skdw43borCXO/ZcJdraPWdv22uIEiLA4q7nvvCug8WTqzQveOH26fodo7g6uFe/a17W3+nFBAkRYENRdb1vkkz1CH9cPsVy/jrhr27PqMYvENYNlHAIesRiBYwRy0V+8iXP8+/fvX11Mr7L7ECueb/r48eMqm7FuI2BGWDEG8cm+7G3NEOfmdcTQw4h9/55lhm7DekRYKQPZF2ArbXTAyu4kDYB2YxUzwg0gi/41ztHnfQG26HbGel/crVrm7tNY+/1btkOEAZ2M05r4FB7r9GbAIdxaZYrHdOsgJ/wCEQY0J74TmOKnbxxT9n3FgGGWWsVdowHtjt9Nnvf7yQM2aZU/TIAIAxrw6dOnAWtZZcoEnBpNuTuObWMEiLAx1HY0ZQJEmHJ3HNvGCBBhY6jtaMoEiJB0Z29vL6ls58vxPcO8/zfrdo5qvKO+d3Fx8Wu8zf1dW4p/cPzLly/dtv9Ts/EbcvGAHhHyfBIhZ6NSiIBTo0LNNtScABFyNiqFCBChULMNNSdAhJyNSiECRCjUbEPNCRAhZ6NSiAARCjXbUHMCRMjZqBQiQIRCzTbUnAARcjYqhQgQoVCzDTUnQIScjUohAkQo1GxDzQkQIWejUogAEQo121BzAkTI2agUIkCEQs021JwAEXI2KoUIEKFQsw01J0CEnI1KIQJEKNRsQ80JECFno1KIABEKNdtQcwJEyNmoFCJAhELNNtScABFyNiqFCBChULMNNSdAhJyNSiECRCjUbEPNCRAhZ6NSiAARCjXbUHMCRMjZqBQiQIRCzTbUnAARcjYqhQgQoVCzDTUnQIScjUohAkQo1GxDzQkQIWejUogAEQo121BzAkTI2agUIkCEQs021JwAEXI2KoUIEKFQsw01J0CEnI1KIQJEKNRsQ80JECFno1KIABEKNdtQcwJEyNmoFCJAhELNNtScABFyNiqFCBChULMNNSdAhJyNSiECRCjUbEPNCRAhZ6NSiAARCjXbUHMCRMjZqBQiQIRCzTbUnAARcjYqhQgQoVCzDTUnQIScjUohAkQo1GxDzQkQIWejUogAEQo121BzAkTI2agUIkCEQs021JwAEXI2KoUIEKFQsw01J0CEnI1KIQJEKNRsQ80JECFno1KIABEKNdtQcwJEyNmoFCJAhELNNtScABFyNiqFCBChULMNNSdAhJyNSiEC/wGgKKC4YMA4TAAAAABJRU5ErkJggg==)
+
+#### 2、分页
+
+1）表格组件 [支持分页](https://antdv.com/components/table-cn#pagination)，首先编写一个分页变量，指定当前页号、页面大小、数据总数、展示总数的文案等参数：6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=
+
+```typescript
+// 分页参数
+const pagination = computed(() => {
+  return {
+    current: searchParams.current ?? 1,
+    pageSize: searchParams.pageSize ?? 10,
+    total: total.value,
+    showSizeChanger: true,
+    showTotal: (total) => `共 ${total} 条`,
+  }
+})
+```
+
+注意，由于这些参数都是动态变化的，需要使用 Vue 的 computed 计算属性，否则当 searchParams 改变时，分页参数并不会更新。
+
+2）编写 doTableChange 函数，当用户切换页号和页面大小时，需要更新 searchParams 搜索条件的值，并触发搜索：p87QUult0bZDR05AO5soQVixQ5nCQ+HA+P5tLSHK/hI=
+
+```typescript
+// 表格变化处理
+const doTableChange = (page: any) => {
+  searchParams.current = page.current
+  searchParams.pageSize = page.pageSize
+  fetchData()
+}
+```
+
+3）给表格组件绑定分页参数和表格切换事件：
+
+```tsx
+<a-table
+  :columns="columns"
+  :data-source="dataList"
+  :pagination="pagination"
+  @change="doTableChange"
+>
+```
+
+效果如图：
+
+![img](./assets/oVbPXPeNBmWNh9vM.webp)
+
+#### 3、搜索
+
+利用 [Ant Design 的搜索组件](https://antdv.com/components/input-cn#components-input-demo-search-input)，实现对数据的搜索。
+
+1）其实搜索本质上就是让用户填写搜索条件表单，此处我们需要根据账号和用户昵称搜索，编写表单代码：
+
+```tsx
+<a-form layout="inline" :model="searchParams" @finish="doSearch">
+  <a-form-item label="账号">
+    <a-input v-model:value="searchParams.userAccount" placeholder="输入账号" />
+  </a-form-item>
+  <a-form-item label="用户名">
+    <a-input v-model:value="searchParams.userName" placeholder="输入用户名" />
+  </a-form-item>
+  <a-form-item>
+    <a-button type="primary" html-type="submit">搜索</a-button>
+  </a-form-item>
+</a-form>
+```
+
+使用 searchParams 接受用户的输入，相当于所有的搜索条件全部存到了 seachParams 中，便于统一维护。
+
+2）点击搜索按钮时会触发表单提交，表单提交时需要将页号重置为 1，并获取数据。编写对应的函数：
+
+```tsx
+// 获取数据
+const doSearch = () => {
+  // 重置页码
+  searchParams.current = 1
+  fetchData()
+}
+```
+
+效果如图：
+
+![img](./assets/EkM10lqzzv98Bi9i.webp)
+
+#### 4、操作
+
+比如开发删除功能，先编写点击删除按钮后的处理函数：
+
+```typescript
+// 删除数据
+const doDelete = async (id: string) => {
+  if (!id) {
+    return
+  }
+  const res = await deleteUserUsingPost({ id })
+  if (res.data.code === 0) {
+    message.success('删除成功')
+    // 刷新数据
+    fetchData()
+  } else {
+    message.error('删除失败')
+  }
+}
+```
+
+然后给删除按钮绑定事件：
+
+```tsx
+<a-button danger @click="doDelete(record.id)">删除</a-button>
+```
+
+### 用户权限控制
+
+虽然后端获取用户列表的接口做了权限校验，防止非管理员用户获取到。但一般情况下，为了保证系统安全和提升用户体验，前端也需要对权限进行控制。bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+
+有 2 种实现方式：单页面控制权限，或者全局控制权限。
+
+思路都是一致的，在进入某个页面时判断用户是否具有该页面的权限，无非是把权限校验相关的代码写在单个页面内，还是写到一个独立的文件中罢了。
+
+**建议编写独立的全局权限控制文件。**可以利用 Vue Router 的路由守卫实现，每次切换并进入页面前，都会检查一下当前用户是否具有特定页面的权限。
+
+在 src 下编写 access.ts 权限校验文件，可以自己定义逻辑，比如用页面前缀来统一判断：
+
+```tsx
+import { useLoginUserStore } from '@/stores/useLoginUserStore'
+import { message } from 'ant-design-vue'
+import router from '@/router'
+
+// 是否为首次获取登录用户
+let firstFetchLoginUser = true;
+
+/**
+ * 全局权限校验
+ */
+router.beforeEach(async (to, from, next) => {
+  const loginUserStore = useLoginUserStore()
+  let loginUser = loginUserStore.loginUser
+  // 确保页面刷新，首次加载时，能够等后端返回用户信息后再校验权限
+  if (firstFetchLoginUser) {
+    await loginUserStore.fetchLoginUser()
+    loginUser = loginUserStore.loginUser
+    firstFetchLoginUser = false;
+  }
+  const toUrl = to.fullPath
+  if (toUrl.startsWith('/admin')) {
+    if (!loginUser || loginUser.userRole !== 'admin') {
+      message.error('没有权限')
+      next(`/user/login?redirect=${to.fullPath}`)
+      return
+    }
+  }
+  next()
+})
+```
+
+注意，上述代码中，我们为了确保页面刷新时，从后端拿到用户信息后再进行权限校验，使用 await 等待后端接口返回，并重新赋值给 loginUser。同时，为了防止每次切换路由都从远程获取用户信息，定义了 firstFetchLoginUser 变量，用于控制在刷新页面后只会请求后端一次。
+
+💡 由于在 access.ts 中已经获取到了登录用户信息，可以移除掉之前在 App.vue 中获取登录用户信息的逻辑，避免重复请求。
+
+在 main.ts（全局入口文件）中引入：
+
+```tsx
+import '@/access'
+```
+
+用一个未登录的用户来测试，尝试访问用户管理页面，会报权限错误并跳转到登录页：
+
+![img](data:image/png;base64,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)
+
+虽然已经满足了需求，但是如果用户不是管理员，其实也不应该看到 “用户管理” 菜单。因此我们还要修改 GlobalHeader 菜单项配置，根据权限决定是否展示某些菜单项。
+
+编写一个过滤菜单项的函数：
+
+```tsx
+// 菜单列表
+const originItems = [
+  {
+    key: '/',
+    icon: () => h(HomeOutlined),
+    label: '主页',
+    title: '主页',
+  },
+  {
+    key: '/admin/userManage',
+    label: '用户管理',
+    title: '用户管理',
+  },
+  {
+    key: 'others',
+    label: h('a', { href: 'https://www.codefather.cn', target: '_blank' }, '编程导航'),
+    title: '编程导航',
+  },
+]
+
+// 过滤菜单项
+const filterMenus = (menus = [] as MenuProps['items']) => {
+  return menus?.filter((menu) => {
+    if (menu.key.startsWith('/admin')) {
+      const loginUser = loginUserStore.loginUser
+      if (!loginUser || loginUser.userRole !== "admin") {
+        return false
+      }
+    }
+    return true
+  })
+}
+
+// 展示在菜单的路由数组
+const items = computed<MenuProps['items']>(() => filterMenus(originItems))
+```
+
+测试效果，未登录时不会看到 “用户管理” 菜单：
+
+![img](./assets/l22vo6kvBVO2mL0D.webp)
+
+### 扩展
+
+#### 1、编辑用户信息
+
+1）目前的用户管理页面还不支持编辑功能，前端可以利用 [组件库文档](https://antdv.com/components/table-cn#components-table-demo-edit-row) 的编辑行能力快速完成。
+
+2）目前用户无法编辑个人的信息，可以在右上角增加 “个人中心 / 个人设置”，点击后进入编辑用户信息的表单。
+
+#### 2、全局权限管理
+
+在本节 “用户权限控制” 部分，我们使用了一种较为简单的方式实现，但是，后续补充页面和权限校验逻辑时，我们要同时修改权限管理文件和导航栏文件，相当于维护了 2 个文件，比较麻烦，有没有更好的办法呢？
+
+需求：能够通过维护 **一个配置文件**，灵活配置每个页面所需要的用户权限，由全局权限管理系统自动校验和拦截，而不需要在每个页面中编写权限校验代码，提高开发效率。此外，还能根据该配置文件自动隐藏没权限的菜单项的展示。
+
+实现方案：
+
+1. 在路由配置文件，利用 Vue Router 的 meta 附加参数，定义某个路由的访问权限
+2. 使用全局路由监听器，每次访问页面时，根据用户要访问页面的路由权限信息，判断用户是否有对应的访问权限，并进行相应的拦截处理。
+
+需要先自行新建 NoAuth 无权限页面，内容随便写，比如显示 “你没有权限”。
+
+新建 access 目录，所有权限管理相关的代码都放在该目录下，模块化。只要不引入，就不会生效。sqWmWUk8kFL4uPey9+8ro5dv7g8fCeOwW9uL7T8/Q4k=
+
+1）定义权限枚举文件 accessEnum.ts：
+
+```typescript
+▼typescript复制代码/**
+ * 权限定义
+ */
+const ACCESS_ENUM = {
+  NOT_LOGIN: "notLogin",
+  USER: "user",
+  ADMIN: "admin",
+};
+
+export default ACCESS_ENUM;
+```
+
+2）修改路由配置文件，在 meta 中补充需要的权限：
+
+```typescript
+{
+  path: '/admin/userManage',
+  name: 'adminUserManage',
+  component: UserManagePage,
+  meta: {
+    access: ACCESS_ENUM.ADMIN,
+  },
+},
+```
+
+3）编写通用的权限校验方法。
+
+Q：为什么？
+
+A：因为菜单组件中要判断权限来过滤展示的菜单项、权限拦截也要用到权限判断功能，所以抽离成公共模块。
+
+checkAccess.ts 文件：
+
+```typescript
+import ACCESS_ENUM from "@/access/accessEnum";
+
+/**
+ * 检查权限（判断当前登录用户是否具有某个权限）
+ * @param loginUser 当前登录用户
+ * @param needAccess 需要有的权限
+ * @return boolean 有无权限
+ */
+const checkAccess = (loginUser: any, needAccess = ACCESS_ENUM.NOT_LOGIN) => {
+  // 获取当前登录用户具有的权限（如果没有 loginUser，则表示未登录）
+  const loginUserAccess = loginUser?.userRole ?? ACCESS_ENUM.NOT_LOGIN;
+  if (needAccess === ACCESS_ENUM.NOT_LOGIN) {
+    return true;
+  }
+  // 如果用户登录才能访问
+  if (needAccess === ACCESS_ENUM.USER) {
+    // 如果用户没登录，那么表示无权限
+    if (loginUserAccess === ACCESS_ENUM.NOT_LOGIN) {
+      return false;
+    }
+  }
+  // 如果需要管理员权限
+  if (needAccess === ACCESS_ENUM.ADMIN) {
+    // 如果不为管理员，表示无权限
+    if (loginUserAccess !== ACCESS_ENUM.ADMIN) {
+      return false;
+    }
+  }
+  return true;
+};
+
+export default checkAccess;
+```
+
+4）编写全局权限校验核心文件 `access/index.ts`。
+
+逻辑如下：
+
+1. 首先判断页面是否需要登录权限，如果不需要，直接放行。
+2. 如果页面需要登录权限
+   1. 如果用户未登录，则跳转到登录页面。
+   2. 如果已登录，判断登录用户的权限是否符合要求，否则跳转到 401 无权限页面。
+
+实现代码如下：
+
+```typescript
+import router from '@/router'
+import { useLoginUserStore } from '@/stores/useLoginUserStore'
+import ACCESS_ENUM from './accessEnum'
+import checkAccess from './checkAccess'
+
+router.beforeEach(async (to, from, next) => {
+  const loginUserStore = useLoginUserStore()
+  let loginUser = loginUserStore.loginUser
+  console.log('登陆用户信息', loginUser)
+  const needAccess = (to.meta?.access as string) ?? ACCESS_ENUM.NOT_LOGIN
+  // 要跳转的页面必须要登陆
+  if (needAccess !== ACCESS_ENUM.NOT_LOGIN) {
+    // 如果没登陆，跳转到登录页面
+    if (!loginUser || !loginUser.userRole || loginUser.userRole === ACCESS_ENUM.NOT_LOGIN) {
+      next(`/user/login?redirect=${to.fullPath}`)
+      return
+    }
+    // 如果已经登陆了，但是权限不足，那么跳转到无权限页面
+    if (!checkAccess(loginUser, needAccess)) {
+      next('/noAuth')
+      return
+    }
+  }
+  next()
+})
+```
+
+注意，必须保证 pinia 初始化在这段代码执行前，所以需要将 `useLoginUserStore()` 函数放到 `router.beforeEach` 参数里。bgMhj83Bt96lFcj29lBZCF0o0+YPCGWOWUw0OPyFB/Q=
+
+参考：https://pinia.vuejs.org/core-concepts/outside-component-usage.html
+
+在 main.ts 中引入，即可生效权限校验：
+
+```plain
+import "@/access";
+```
+
+5）支持全局自动登录。如果是 **首次 **进入页面，状态为未登陆，则自动登录。
+
+如何区别是否为首次进入页面（还没尝试过获取登录用户）呢？
+
+默认的 loginUser 是没有 userRole 的，只要获取过，哪怕未登录，也可以给设置一个 userRole 为 "notLogin"。6vlRn/br/m8Ymr8D02hZYIBP3pqlW5Sp8qJklXCk9AY=
+
+在 `access/index.ts` 开头补充自动登录逻辑
+
+```typescript
+// // 如果之前没登陆过，自动登录
+if (!loginUser || !loginUser.userRole) {
+  // 加 await 是为了等用户登录成功之后，再执行后续的代码
+  await loginUserStore.fetchLoginUser();
+  loginUser = loginUserStore.loginUser;
+}
+```
+
+之后记得移除 App.vue 中获取登录信息的调用。
+
+6）根据权限控制菜单显隐。
+
+需求：只有具有权限的菜单，才对用户可见
+
+原理：/MBNmaRtUhzDE9b4tB/jsqs1ClvvhzK+S4KVLPihc/I=
+
+1. 遍历原菜单项列表，针对菜单 key 对应的 path 路径，找到路由中对应的 meta 权限配置。只要判断用户没有这个权限，就直接过滤掉。
+2. 还可以通过在路由配置的 meta 中添加 hideInMenu，灵活控制菜单的显隐。
+
+修改 GlobalHeader 全局导航栏（通用菜单）组件，补充根据权限来过滤菜单的逻辑，可自行实现。
+
+```typescript
+// 过滤菜单项
+const items = menus.filter((menu) => {
+  // todo 需要自己实现 menu 到路由 item 的转化
+  const item = menuToRouteItem(menu);
+  if (item.meta?.hideInMenu) {
+    return false;
+  }
+  // 根据权限过滤菜单，有权限则返回 true，则保留该菜单
+  return checkAccess(loginUserStore.loginUser, item.meta?.access as string);
+});
+```
