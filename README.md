@@ -1935,7 +1935,7 @@ public class User implements Serializable {
 在 `model.enums` 包下新建 UserRoleEnum：
 
 ```java
-▼@Getter
+@Getter
 public enum UserRoleEnum {
 
     USER("用户", "user"),
@@ -1985,7 +1985,7 @@ public enum UserRoleEnum {
 在 `model.dto.user` 下新建用于接受请求参数的类：
 
 ```java
-▼@Data
+@Data
 public class UserRegisterRequest implements Serializable {
 
     private static final long serialVersionUID = 3191241716373120793L;
@@ -2014,7 +2014,7 @@ public class UserRegisterRequest implements Serializable {
 在 `service` 包的 UserService 中增加方法声明：
 
 ```java
-▼/**
+/**
  * 用户注册
  *
  * @param userAccount   用户账户
@@ -2028,7 +2028,7 @@ long userRegister(String userAccount, String userPassword, String checkPassword)
 在 UserServiceImpl 中增加实现代码，注意多补充一些校验条件：
 
 ```java
-▼@Override
+@Override
 public long userRegister(String userAccount, String userPassword, String checkPassword) {
     // 1. 校验
     if (StrUtil.hasBlank(userAccount, userPassword, checkPassword)) {
@@ -2069,7 +2069,7 @@ public long userRegister(String userAccount, String userPassword, String checkPa
 注意，上述代码中，我们需要将用户密码加密后进行存储。可以封装一个方法，便于后续复用：
 
 ```java
-▼@Override
+@Override
 public String getEncryptPassword(String userPassword) {
     // 盐值，混淆密码
     final String SALT = "yupi";
@@ -2239,7 +2239,7 @@ public BaseResponse<LoginUserVO> userLogin(@RequestBody UserLoginRequest userLog
 在 `service` 包的 UserService 中增加方法声明：
 
 ```java
-▼/**
+/**
  * 获取当前登录用户
  *
  * @param request
@@ -2391,7 +2391,7 @@ boolean userLogout(HttpServletRequest request);
 在 UserServiceImpl 中增加实现代码，从 Session 中移除掉当前用户的登录态即可：
 
 ```java
-▼@Override
+@Override
 public boolean userLogout(HttpServletRequest request) {
     // 先判断是否已登录
     Object userObj = request.getSession().getAttribute(USER_LOGIN_STATE);
