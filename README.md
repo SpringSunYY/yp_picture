@@ -5743,7 +5743,7 @@ onMounted(() => {
 
 效果如图：
 
-![](![image](./assets/EaZBYLHsC57kXOHK.webp)
+![image](./assets/EaZBYLHsC57kXOHK.webp)
 
 ### 图片管理
 
@@ -5981,7 +5981,7 @@ const doTableChange = (page: any) => {
 
 最终页面效果如图：
 
-![](![image](./assets/RPKnXlx2tFlP8Qaa.webp)
+![image](./assets/RPKnXlx2tFlP8Qaa.webp)
 
 💡 如果觉得表格的列在窄屏下会受到挤压，可以给 table 组件增加属性 `:scroll="{ x: 'max-content' }"`，使表格支持横向滚动。
 
