@@ -19,17 +19,8 @@ import javax.servlet.http.HttpServletRequest;
 * @createDate 2025-02-05 18:06:24
 */
 public interface PictureService extends IService<Picture> {
-    /**
-     * 上传图片
-     *
-     * @param multipartFile
-     * @param pictureUploadRequest
-     * @param loginUser
-     * @return
-     */
-    PictureVO uploadPicture(MultipartFile multipartFile,
-                            PictureUploadRequest pictureUploadRequest,
-                            User loginUser);
+
+    PictureVO uploadPicture(Object inputSource, PictureUploadRequest pictureUploadRequest, User loginUser);
 
     Page<PictureVO> getPictureVOPage(Page<Picture> picturePage, HttpServletRequest request);
 

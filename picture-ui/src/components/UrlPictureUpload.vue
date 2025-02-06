@@ -18,7 +18,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import { message } from 'ant-design-vue'
-// import { uploadPictureByUrlUsingPost } from '@/api/pictureController.ts'
+import { uploadPictureByUrlUsingPost } from '@/api/pictureController.ts'
 
 interface Props {
   picture?: API.PictureVO
@@ -34,28 +34,28 @@ const loading = ref<boolean>(false)
  * 上传图片
  * @param file
  */
-// const handleUpload = async () => {
-//   loading.value = true
-//   try {
-//     const params: API.PictureUploadRequest = { fileUrl: fileUrl.value }
-//     params.spaceId = props.spaceId;
-//     if (props.picture) {
-//       params.id = props.picture.id
-//     }
-//     const res = await uploadPictureByUrlUsingPost(params)
-//     if (res.data.code === 0 && res.data.data) {
-//       message.success('图片上传成功')
-//       // 将上传成功的图片信息传递给父组件
-//       props.onSuccess?.(res.data.data)
-//     } else {
-//       message.error('图片上传失败，' + res.data.message)
-//     }
-//   } catch (error) {
-//     console.error('图片上传失败', error)
-//     message.error('图片上传失败，' + error.message)
-//   }
-//   loading.value = false
-// }
+const handleUpload = async () => {
+  loading.value = true
+  try {
+    const params: API.PictureUploadRequest = { fileUrl: fileUrl.value }
+    params.spaceId = props.spaceId;
+    if (props.picture) {
+      params.id = props.picture.id
+    }
+    const res = await uploadPictureByUrlUsingPost(params)
+    if (res.data.code === 0 && res.data.data) {
+      message.success('图片上传成功')
+      // 将上传成功的图片信息传递给父组件
+      props.onSuccess?.(res.data.data)
+    } else {
+      message.error('图片上传失败，' + res.data.message)
+    }
+  } catch (error) {
+    console.error('图片上传失败', error)
+    message.error('图片上传失败，' + error.message)
+  }
+  loading.value = false
+}
 </script>
 <style scoped>
 .url-picture-upload {

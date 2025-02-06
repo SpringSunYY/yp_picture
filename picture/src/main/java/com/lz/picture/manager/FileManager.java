@@ -28,14 +28,19 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * 已废弃
+ */
+
+@Deprecated
 @Service
 @Slf4j
-public class FileManager {  
-  
+public class FileManager {
+
     @Resource
     private CosClientConfig cosClientConfig;
-  
-    @Resource  
+
+    @Resource
     private CosManager cosManager;
 
     /**
