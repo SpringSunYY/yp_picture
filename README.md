@@ -7601,7 +7601,7 @@ public class PictureUploadByBatchRequest {
 1）引入 [jsoup 库](https://jsoup.org/)，此处选 v1.15.3 版本，使用的人较多：
 
 ```xml
-▼xml复制代码<!-- HTML 解析：https://jsoup.org/ -->  
+<!-- HTML 解析：https://jsoup.org/ -->  
 <dependency>  
     <groupId>org.jsoup</groupId>  
     <artifactId>jsoup</artifactId>  
