@@ -80,7 +80,14 @@ public class UrlPictureUpload extends PictureUploadTemplate {
     @Override
     protected String getOriginFilename(Object inputSource) {
         String fileUrl = (String) inputSource;
-        return FileUtil.mainName(fileUrl);
+        URL url = null;
+        try {
+            url = new URL(fileUrl);
+        } catch (MalformedURLException e) {
+            throw new BusinessException(ErrorCode.SYSTEM_ERROR, "url 格式错误");
+        }
+        fileUrl = url.getFile().substring(url.getFile().lastIndexOf('/'));
+        return fileUrl;
     }
 
     @Override
