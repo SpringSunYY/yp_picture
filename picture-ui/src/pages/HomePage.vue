@@ -1,5 +1,5 @@
 <template>
-  <div id="homePage">
+  <div id="homePage" style="max-width: 1400px; margin: 0 auto">
     <!-- 搜索框 -->
     <div class="search-bar">
       <a-input-search
@@ -30,7 +30,7 @@
     </div>
     <!-- 图片列表 -->
     <a-list
-      :grid="{ gutter: 16, xs: 1, sm: 2, md: 3, lg: 4, xl: 5, xxl: 6 }"
+      :grid="{ gutter: 16, xs: 1, sm: 2, md: 3, lg: 4, xl: 4, xxl: 6 }"
       :data-source="dataList"
       :pagination="pagination"
       :loading="loading"
