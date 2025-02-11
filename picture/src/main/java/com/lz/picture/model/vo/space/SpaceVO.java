@@ -1,5 +1,6 @@
 package com.lz.picture.model.vo.space;
 
+import com.lz.picture.model.entity.Space;
 import com.lz.picture.model.vo.user.UserVO;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;

@@ -10,7 +10,7 @@ import com.lz.picture.exception.BusinessException;
 import com.lz.picture.exception.ErrorCode;
 import com.lz.picture.exception.ThrowUtils;
 import com.lz.picture.model.dto.user.*;
-import com.lz.picture.model.entry.User;
+import com.lz.picture.model.entity.User;
 import com.lz.picture.model.vo.user.LoginUserVO;
 import com.lz.picture.model.vo.user.UserVO;
 import com.lz.picture.service.UserService;

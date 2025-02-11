@@ -1,7 +1,7 @@
 package com.lz.picture.model.vo.picture;
 
 import cn.hutool.json.JSONUtil;
-import com.lz.picture.model.entry.Picture;
+import com.lz.picture.model.entity.Picture;
 import com.lz.picture.model.vo.user.UserVO;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
@@ -71,7 +71,12 @@ public class PictureVO implements Serializable {
     /**  
      * 用户 id  
      */  
-    private Long userId;  
+    private Long userId;
+
+    /**
+     * 空间 id
+     */
+    private Long spaceId;
   
     /**  
      * 创建时间  

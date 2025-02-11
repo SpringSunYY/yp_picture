@@ -2,16 +2,12 @@ package com.lz.picture.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.lz.picture.model.dto.picture.PictureQueryRequest;
-import com.lz.picture.model.dto.picture.PictureReviewRequest;
-import com.lz.picture.model.dto.picture.PictureUploadByBatchRequest;
-import com.lz.picture.model.dto.picture.PictureUploadRequest;
-import com.lz.picture.model.entry.Picture;
+import com.lz.picture.model.dto.picture.*;
+import com.lz.picture.model.entity.Picture;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.lz.picture.model.entry.User;
+import com.lz.picture.model.entity.User;
 import com.lz.picture.model.vo.picture.PictureVO;
 import org.springframework.scheduling.annotation.Async;
-import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -56,4 +52,10 @@ public interface PictureService extends IService<Picture> {
 
     @Async
     void clearPictureFile(Picture oldPicture);
+
+    void checkPictureAuth(User loginUser, Picture picture);
+
+    void deletePicture(long pictureId, User loginUser);
+
+    void editPicture(PictureEditRequest pictureEditRequest, User loginUser);
 }

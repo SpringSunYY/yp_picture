@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lz.picture.exception.BusinessException;
 import com.lz.picture.exception.ErrorCode;
 import com.lz.picture.model.dto.user.UserQueryRequest;
-import com.lz.picture.model.entry.User;
+import com.lz.picture.model.entity.User;
 import com.lz.picture.model.enums.UserRoleEnum;
 import com.lz.picture.model.vo.user.LoginUserVO;
 import com.lz.picture.model.vo.user.UserVO;

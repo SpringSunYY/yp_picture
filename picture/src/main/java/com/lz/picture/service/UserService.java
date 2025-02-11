@@ -2,7 +2,7 @@ package com.lz.picture.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.lz.picture.model.dto.user.UserQueryRequest;
-import com.lz.picture.model.entry.User;
+import com.lz.picture.model.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.lz.picture.model.vo.user.LoginUserVO;
 import com.lz.picture.model.vo.user.UserVO;

@@ -80,6 +80,12 @@ public class PictureQueryRequest extends PageRequest implements Serializable {
      * 审核人 id
      */
     private Long reviewerId;
+
+    /**
+     * 空间 id
+     */
+    private Long spaceId;
+    private boolean nullSpaceId;
   
     /**  
      * 用户 id  

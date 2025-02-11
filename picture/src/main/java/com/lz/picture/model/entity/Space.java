@@ -1,4 +1,4 @@
-package com.lz.picture.model.entry;
+package com.lz.picture.model.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

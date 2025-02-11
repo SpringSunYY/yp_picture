@@ -1,6 +1,6 @@
 package com.lz.picture.mapper;
 
-import com.lz.picture.model.entry.Space;
+import com.lz.picture.model.entity.Space;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

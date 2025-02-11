@@ -1,4 +1,4 @@
-package com.lz.picture.model.entry;
+package com.lz.picture.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 
@@ -93,6 +93,11 @@ public class Picture implements Serializable {
      * 缩略图 url
      */
     private String thumbnailUrl;
+
+    /**
+     * 空间 id
+     */
+    private Long spaceId;
 
     /**
      * 创建用户 id

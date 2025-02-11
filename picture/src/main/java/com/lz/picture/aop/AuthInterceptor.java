@@ -3,7 +3,7 @@ package com.lz.picture.aop;
 import com.lz.picture.annotation.AuthCheck;
 import com.lz.picture.exception.BusinessException;
 import com.lz.picture.exception.ErrorCode;
-import com.lz.picture.model.entry.User;
+import com.lz.picture.model.entity.User;
 import com.lz.picture.model.enums.UserRoleEnum;
 import com.lz.picture.service.UserService;
 import org.aspectj.lang.ProceedingJoinPoint;
