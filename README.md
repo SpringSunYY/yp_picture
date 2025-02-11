@@ -9087,7 +9087,7 @@ A：这的确是可行的，对于内容占用存储空间不大的平台，很�
 根据需求可以做出如下 SQL 设计：
 
 ```sql
-▼-- 空间表
+-- 空间表
 create table if not exists space
 (
     id         bigint auto_increment comment 'id' primary key,
@@ -9122,7 +9122,7 @@ create table if not exists space
 SQL 如下：
 
 ```sql
-▼-- 添加新列
+-- 添加新列
 ALTER TABLE picture
     ADD COLUMN spaceId  bigint  null comment '空间 id（为空表示公共空间）';
 
