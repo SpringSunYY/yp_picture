@@ -90,6 +90,11 @@ public class Picture implements Serializable {
     private Date reviewTime;
 
     /**
+     * 缩略图 url
+     */
+    private String thumbnailUrl;
+
+    /**
      * 创建用户 id
      */
     private Long userId;
