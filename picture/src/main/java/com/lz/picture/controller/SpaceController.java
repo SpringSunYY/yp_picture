@@ -10,10 +10,13 @@ import com.lz.picture.exception.BusinessException;
 import com.lz.picture.exception.ErrorCode;
 import com.lz.picture.exception.ThrowUtils;
 import com.lz.picture.model.dto.space.*;
+import com.lz.picture.model.entity.Picture;
 import com.lz.picture.model.entity.Space;
 import com.lz.picture.model.entity.User;
 import com.lz.picture.model.enums.SpaceLevelEnum;
+import com.lz.picture.model.vo.picture.PictureVO;
 import com.lz.picture.model.vo.space.SpaceVO;
+import com.lz.picture.service.PictureService;
 import com.lz.picture.service.SpaceService;
 import com.lz.picture.service.UserService;
 import org.springframework.beans.BeanUtils;
@@ -35,13 +38,16 @@ import java.util.stream.Collectors;
  * Version: 1.0
  */
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/space")
 public class SpaceController {
     @Resource
     private UserService userService;
 
     @Resource
     private SpaceService spaceService;
+
+    @Resource
+    private PictureService pictureService;
 
 
     @PostMapping("/add")
@@ -116,6 +122,35 @@ public class SpaceController {
         return ResultUtils.success(space);
     }
 
+    /**
+     * 根据 id 获取图片（封装类）
+     */
+    @GetMapping("/get/vo")
+    public BaseResponse<PictureVO> getPictureVOById(long id, HttpServletRequest request) {
+        ThrowUtils.throwIf(id <= 0, ErrorCode.PARAMS_ERROR);
+        // 查询数据库
+        Picture picture = pictureService.getById(id);
+        ThrowUtils.throwIf(picture == null, ErrorCode.NOT_FOUND_ERROR);
+        // 空间权限校验
+        Long spaceId = picture.getSpaceId();
+        Space space = null;
+        if (spaceId != null) {
+//            boolean hasPermission = StpKit.SPACE.hasPermission(SpaceUserPermissionConstant.PICTURE_VIEW);
+//            ThrowUtils.throwIf(!hasPermission, ErrorCode.NO_AUTH_ERROR);
+            // 已经改为使用注解鉴权
+            // User loginUser = userService.getLoginUser(request);
+            // pictureService.checkPictureAuth(loginUser, picture);
+            space = spaceService.getById(spaceId);
+            ThrowUtils.throwIf(space == null, ErrorCode.NOT_FOUND_ERROR, "空间不存在");
+        }
+        // 获取权限列表
+        User loginUser = userService.getLoginUser(request);
+//        List<String> permissionList = spaceUserAuthManager.getPermissionList(space, loginUser);
+        PictureVO pictureVO = pictureService.getPictureVO(picture, request);
+//        pictureVO.setPermissionList(permissionList);
+        // 获取封装类
+        return ResultUtils.success(pictureVO);
+    }
 
     /**
      * 分页获取空间列表（仅管理员可用）

@@ -99,6 +99,11 @@ const originItems = [
     title: '图片管理',
   },
   {
+    key: '/admin/spaceManage',
+    label: '空间管理',
+    title: '空间管理',
+  },
+  {
     key: 'others',
     label: h('a', { href: 'https://github.com/SpringSunYY/yp_picture', target: '_blank' }, 'YY'),
     title: '编程导航',

@@ -10556,7 +10556,7 @@ const handleSubmit = async (values: any) => {
 优化一下样式，隐藏多余的边框，下列代码仅展示了新增或修改的样式：
 
 ```css
-▼css复制代码#basicLayout .header {
+#basicLayout .header {
   margin-bottom: 1px;
 }
 
