@@ -12114,7 +12114,7 @@ onMounted(() => {
 1）图片表新增字段，执行 SQL：
 
 ```sql
-▼sql复制代码ALTER TABLE picture
+ALTER TABLE picture
     ADD COLUMN picColor varchar(16) null comment '图片主色调';
 ```
 
@@ -12134,9 +12134,7 @@ private String picColor;
 1）修改 PictureUploadTemplate 的 buildResult 方法，直接从 ImageInfo 对象中就能获得主色调：
 
 ```java
-▼java
-
-复制代码uploadPictureResult.setPicColor(imageInfo.getAve());
+uploadPictureResult.setPicColor(imageInfo.getAve());
 ```
 
 注意两个 buildResult 方法都要修改，其中一个 buildResult 方法要补充 imageInfo 参数，修改的代码如下：
@@ -12169,9 +12167,7 @@ private UploadPictureResult buildResult(String originFilename, CIObject compress
 2）图片服务的 uploadPicture 中补充设置 picColor，从而将该字段保存到数据库中：
 
 ```java
-▼java
-
-复制代码picture.setPicColor(uploadPictureResult.getPicColor());
+picture.setPicColor(uploadPictureResult.getPicColor());
 ```
 
 #### 3、颜色相似度计算

@@ -20,9 +20,19 @@
     </a-flex>
     <!-- 搜索表单 -->
     <PictureSearchForm :onSearch="onSearch" />
+    <!-- 按颜色搜索 -->
+    <a-form-item label="按颜色搜索" style="margin-top: 16px">
+      <color-picker format="hex" @pureColorChange="onColorChange" />
+    </a-form-item>
     <div style="margin-bottom: 32px"></div>
     <!-- 图片列表 -->
-    <PictureList :dataList="dataList" :loading="loading" :show-op="true" :can-delete="true" :can-edit="true"/>
+    <PictureList
+      :dataList="dataList"
+      :loading="loading"
+      :show-op="true"
+      :can-delete="true"
+      :can-edit="true"
+    />
     <a-pagination
       style="text-align: right"
       v-model:current="searchParams.current"
@@ -34,14 +44,18 @@
   </div>
 </template>
 <script setup lang="ts">
-import { onMounted, reactive, ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import { message } from 'ant-design-vue'
-import { listPictureVoByPageUsingPost } from '@/api/pictureController.ts'
+import {
+  listPictureVoByPageUsingPost,
+  searchPictureByColorUsingPost,
+} from '@/api/pictureController.ts'
 import { formatSize } from '@/utils'
 import { getPictureVoByIdUsingGet } from '@/api/spaceController.ts'
 import PictureList from '@/components/PictureList.vue'
 import PictureSearchForm from '@/components/PictureSearchForm.vue'
-
+import { ColorPicker } from 'vue3-colorpicker'
+import 'vue3-colorpicker/style.css'
 const props = defineProps<{
   id: string | number
 }>()
@@ -115,13 +129,23 @@ const fetchData = async () => {
   loading.value = false
 }
 
-
+const onColorChange = async (color: string) => {
+  const res = await searchPictureByColorUsingPost({
+    picColor: color,
+    spaceId: props.id,
+  })
+  if (res.data.code === 0 && res.data.data) {
+    const data = res.data.data ?? []
+    dataList.value = data
+    total.value = data.length
+  } else {
+    message.error('获取数据失败，' + res.data.message)
+  }
+}
 // 页面加载时请求一次
 onMounted(() => {
   fetchData()
 })
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

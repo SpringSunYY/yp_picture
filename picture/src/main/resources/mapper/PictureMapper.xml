@@ -38,6 +38,7 @@
       thumbnailUrl,
       name,
     introduction,category,tags,
+        picColor,
     picSize,picWidth,picHeight,
     picScale,picFormat,userId,
     createTime,editTime,updateTime,
