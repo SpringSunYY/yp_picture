@@ -8,6 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.lz.picture.model.entity.User;
 import com.lz.picture.model.vo.picture.PictureVO;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
@@ -72,4 +73,17 @@ public interface PictureService extends IService<Picture> {
     void deletePicture(long pictureId, User loginUser);
 
     void editPicture(PictureEditRequest pictureEditRequest, User loginUser);
+
+    /**
+     * description: 批量修改图片
+     * author: YY
+     * method: editPictureByBatch
+     * date: 2025/2/16 16:57
+     * param:
+     * param: pictureEditByBatchRequest
+     * param: loginUser
+     * return: void
+     **/
+    @Transactional(rollbackFor = Exception.class)
+    void editPictureByBatch(PictureEditByBatchRequest pictureEditByBatchRequest, User loginUser);
 }
