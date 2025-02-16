@@ -10,21 +10,22 @@
     <a-tabs v-model:activeKey="uploadType">
       <a-tab-pane key="file" tab="文件上传">
         <!-- 图片上传组件 -->
-        <PictureUpload :picture="picture" :spaceId="spaceId" :onSuccess="onSuccess" />
+        <PictureUpload :picture="picture" :spaceId="Number(spaceId)" :onSuccess="onSuccess" />
       </a-tab-pane>
       <a-tab-pane key="url" tab="URL 上传" force-render>
         <!-- URL 图片上传组件 -->
-        <UrlPictureUpload :picture="picture" :spaceId="spaceId" :onSuccess="onSuccess" />
+        <UrlPictureUpload :picture="picture" :spaceId="Number(spaceId)" :onSuccess="onSuccess" />
       </a-tab-pane>
     </a-tabs>
-    <!-- 图片编辑 -->
     <div v-if="picture" class="edit-bar">
-      <a-space size="middle">
-        <a-button :icon="h(EditOutlined)" @click="doEditPicture">编辑图片</a-button>
-        <a-button type="primary" :icon="h(FullscreenOutlined)" @click="doImagePainting">
-          AI 扩图
-        </a-button>
-      </a-space>
+      <a-button :icon="h(EditOutlined)" @click="doEditPicture">编辑图片</a-button>
+      <ImageCropper
+        ref="imageCropperRef"
+        :imageUrl="picture?.url"
+        :picture="picture"
+        :spaceId="Number(spaceId)"
+        :onSuccess="onSuccess"
+      />
     </div>
     <!-- 图片信息表单 -->
     <a-form
@@ -73,17 +74,14 @@
 import PictureUpload from '@/components/PictureUpload.vue'
 import { computed, h, onMounted, reactive, ref, watchEffect } from 'vue'
 import { message } from 'ant-design-vue'
-import {
-  editPictureUsingPost,
-  getPictureVoByIdUsingGet,
-  listPictureTagCategoryUsingGet,
-} from '@/api/pictureController.ts'
+import { editPictureUsingPost, listPictureTagCategoryUsingGet } from '@/api/pictureController.ts'
 import { useRoute, useRouter } from 'vue-router'
 import UrlPictureUpload from '@/components/UrlPictureUpload.vue'
 // import ImageCropper from '@/components/ImageCropper.vue'
 import { EditOutlined, FullscreenOutlined } from '@ant-design/icons-vue'
 // import ImageOutPainting from '@/components/ImageOutPainting.vue'
-// import { getSpaceVoByIdUsingGet } from '@/api/spaceController.ts'
+import { getPictureVoByIdUsingGet } from '@/api/spaceController.ts'
+import ImageCropper from '@/components/ImageCropper.vue'
 
 const router = useRouter()
 const route = useRoute()
@@ -219,7 +217,7 @@ const space = ref<API.SpaceVO>()
 const fetchSpace = async () => {
   // 获取数据
   if (spaceId.value) {
-    const res = await getSpaceVoByIdUsingGet({
+    const res = await getPictureVoByIdUsingGet({
       id: spaceId.value,
     })
     if (res.data.code === 0 && res.data.data) {
@@ -237,6 +235,11 @@ watchEffect(() => {
 #addPicturePage {
   max-width: 720px;
   margin: 0 auto;
+}
+
+#addPicturePage .edit-bar {
+  text-align: center;
+  margin: 16px 0;
 }
 
 #addPicturePage .edit-bar {
