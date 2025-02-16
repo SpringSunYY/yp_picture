@@ -2,6 +2,7 @@ package com.lz.picture.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.lz.picture.api.aliyunai.model.CreateOutPaintingTaskResponse;
 import com.lz.picture.model.dto.picture.*;
 import com.lz.picture.model.entity.Picture;
 import com.baomidou.mybatisplus.extension.service.IService;
@@ -86,4 +87,6 @@ public interface PictureService extends IService<Picture> {
      **/
     @Transactional(rollbackFor = Exception.class)
     void editPictureByBatch(PictureEditByBatchRequest pictureEditByBatchRequest, User loginUser);
+
+    CreateOutPaintingTaskResponse createPictureOutPaintingTask(CreatePictureOutPaintingTaskRequest createPictureOutPaintingTaskRequest, User loginUser);
 }

@@ -87,7 +87,17 @@ public class UrlPictureUpload extends PictureUploadTemplate {
             throw new BusinessException(ErrorCode.SYSTEM_ERROR, "url 格式错误");
         }
         fileUrl = url.getFile().substring(url.getFile().lastIndexOf('/'));
-        return fileUrl;
+        return getValidFilename(fileUrl);
+    }
+
+    private String getValidFilename(String originFilename) {
+        // 去掉 URL 中的查询参数部分，保留文件名
+        int queryIndex = originFilename.indexOf("?");
+        if (queryIndex != -1) {
+        // 如果存在查询参数，截取文件名部分
+            originFilename = originFilename.substring(0, queryIndex);
+        }
+        return originFilename;
     }
 
     @Override

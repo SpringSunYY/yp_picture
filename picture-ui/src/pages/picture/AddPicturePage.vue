@@ -18,13 +18,17 @@
       </a-tab-pane>
     </a-tabs>
     <div v-if="picture" class="edit-bar">
-      <a-button :icon="h(EditOutlined)" @click="doEditPicture">编辑图片</a-button>
-      <ImageCropper
-        ref="imageCropperRef"
-        :imageUrl="picture?.url"
+      <a-space size="middle">
+        <a-button :icon="h(EditOutlined)" @click="doEditPicture">编辑图片</a-button>
+        <a-button type="primary" ghost :icon="h(FullscreenOutlined)" @click="doImagePainting">
+          AI 扩图
+        </a-button>
+      </a-space>
+      <ImageOutPainting
+        ref="imageOutPaintingRef"
         :picture="picture"
         :spaceId="Number(spaceId)"
-        :onSuccess="onSuccess"
+        :onSuccess="onImageOutPaintingSuccess"
       />
     </div>
     <!-- 图片信息表单 -->
@@ -82,6 +86,7 @@ import { EditOutlined, FullscreenOutlined } from '@ant-design/icons-vue'
 // import ImageOutPainting from '@/components/ImageOutPainting.vue'
 import { getPictureVoByIdUsingGet } from '@/api/spaceController.ts'
 import ImageCropper from '@/components/ImageCropper.vue'
+import ImageOutPainting from '@/components/ImageOutPainting.vue'
 
 const router = useRouter()
 const route = useRoute()
