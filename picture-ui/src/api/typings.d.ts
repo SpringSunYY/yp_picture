@@ -230,6 +230,14 @@ declare namespace API {
     userId?: number
   }
 
+  type PictureEditByBatchRequest = {
+    category?: string
+    nameRule?: string
+    pictureIdList?: number[]
+    spaceId?: number
+    tags?: string[]
+  }
+
   type PictureEditRequest = {
     category?: string
     id?: number
