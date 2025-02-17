@@ -16256,7 +16256,7 @@ const isAdmin = computed(() => {
 之前已经开发了空间模块，团队空间可以直接复用私有空间的大多数能力。因此可以给空间表新增一个 spaceType 字段，用于区分私有和团队空间。
 
 ```sql
-▼sql复制代码ALTER TABLE space
+ALTER TABLE space
     ADD COLUMN spaceType int default 0 not null comment '空间类型：0-私有 1-团队';
 
 CREATE INDEX idx_spaceType ON space (spaceType);
@@ -16277,7 +16277,7 @@ CREATE INDEX idx_spaceType ON space (spaceType);
 由于空间和用户是多对多的关系，还要同时记录用户在某空间的角色，所以需要新建关联表：
 
 ```sql
-▼sql复制代码-- 空间成员表
+-- 空间成员表
 create table if not exists space_user
 (
     id         bigint auto_increment comment 'id' primary key,
