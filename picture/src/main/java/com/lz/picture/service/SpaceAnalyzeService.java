@@ -7,6 +7,7 @@ import com.lz.picture.model.vo.space.analyze.*;
 
 import java.util.List;
 
+
 public interface SpaceAnalyzeService {
 
     /**

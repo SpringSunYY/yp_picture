@@ -15402,7 +15402,7 @@ public interface SpaceMapper extends BaseMapper<Space> {
 之前通过代码生成器，项目里面已经有很多 xxxMapper.xml 配置文件了。比如 SpaceMapper.xml，里面定义了表和 Java 类的字段映射、SQL 字段列表片段。
 
 ```xml
-▼xml复制代码<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
@@ -15439,7 +15439,7 @@ public interface SpaceMapper extends BaseMapper<Space> {
 移除上述 Mapper 的 SQL 注解，然后在 XML 文件中编写 SQL 片段，示例代码如下：
 
 ```xml
-▼xml复制代码<!-- 获取存储使用量排名前 N 的空间 -->
+<!-- 获取存储使用量排名前 N 的空间 -->
 <select id="getTopNSpaceUsage" resultType="com.yupi.Space">
   SELECT id, spaceName, userId, totalSize
   FROM space

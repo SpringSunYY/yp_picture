@@ -16,6 +16,7 @@ import com.lz.picture.service.PictureService;
 import com.lz.picture.service.SpaceAnalyzeService;
 import com.lz.picture.service.SpaceService;
 import com.lz.picture.service.UserService;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.LinkedHashMap;
@@ -31,6 +32,8 @@ import java.util.stream.Collectors;
  * Description: SpaceAnalyzeServiceImpl
  * Version: 1.0
  */
+
+@Service
 public class SpaceAnalyzeServiceImpl implements SpaceAnalyzeService {
     @Resource
     private SpaceService spaceService;
@@ -242,10 +245,14 @@ public class SpaceAnalyzeServiceImpl implements SpaceAnalyzeService {
     @Override
     public List<Space> getSpaceRankAnalyze(SpaceRankAnalyzeRequest spaceRankAnalyzeRequest, User loginUser) {
         ThrowUtils.throwIf(spaceRankAnalyzeRequest == null, ErrorCode.PARAMS_ERROR);
-
         // 仅管理员可查看空间排行
         ThrowUtils.throwIf(!userService.isAdmin(loginUser), ErrorCode.NO_AUTH_ERROR, "无权查看空间排行");
-
+        //不能为空
+        ThrowUtils.throwIf(spaceRankAnalyzeRequest.getTopN() == null, ErrorCode.PARAMS_ERROR, "topN不能为空");
+        // 必须小于100
+        ThrowUtils.throwIf(spaceRankAnalyzeRequest.getTopN() > 100, ErrorCode.PARAMS_ERROR, "topN不能大于100");
+        // 必须大于0
+        ThrowUtils.throwIf(spaceRankAnalyzeRequest.getTopN() <= 0, ErrorCode.PARAMS_ERROR, "topN必须大于0");
         // 构造查询条件
         QueryWrapper<Space> queryWrapper = new QueryWrapper<>();
         queryWrapper.select("id", "spaceName", "userId", "totalSize")

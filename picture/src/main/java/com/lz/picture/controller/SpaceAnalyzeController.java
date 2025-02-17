@@ -75,11 +75,26 @@ public class SpaceAnalyzeController {
         return ResultUtils.success(resultList);
     }
 
+    /**
+     * 获取空间排名分析结果
+     * 该函数处理POST请求，接收一个包含空间排名分析请求参数的JSON对象，并返回相应的空间排名分析结果列表。
+     *
+     * @param spaceRankAnalyzeRequest 包含空间排名分析请求参数的对象，不能为null
+     * @param request                 HttpServletRequest对象，用于获取当前登录用户信息
+     * @return BaseResponse<List < Space>> 包含空间排名分析结果的响应对象，其中List<Space>为分析结果列表
+     */
     @PostMapping("/rank")
     public BaseResponse<List<Space>> getSpaceRankAnalyze(@RequestBody SpaceRankAnalyzeRequest spaceRankAnalyzeRequest, HttpServletRequest request) {
+        // 检查请求参数是否为null，如果为null则抛出参数错误异常
         ThrowUtils.throwIf(spaceRankAnalyzeRequest == null, ErrorCode.PARAMS_ERROR);
+
+        // 获取当前登录用户信息
         User loginUser = userService.getLoginUser(request);
+
+        // 调用服务层方法，获取空间排名分析结果
         List<Space> resultList = spaceAnalyzeService.getSpaceRankAnalyze(spaceRankAnalyzeRequest, loginUser);
+
+        // 返回成功响应，包含分析结果列表
         return ResultUtils.success(resultList);
     }
 }
