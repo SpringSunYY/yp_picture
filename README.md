@@ -18239,7 +18239,7 @@ Apache ShardingSphere 提供了开箱即用的分片策略、灵活的配置能�
 
 它又分为 2 大核心模块 ShardingSphere-JDBC 和 ShardingSphere-Proxy，我用一张表格来列举 2 者的区别：
 
-| 维度     | ShardingSphere JDBC                | ShardingSphere Proxybg                     |
+| 维度     | ShardingSphere JDBC                | ShardingSphere Proxy                       |
 | -------- | ---------------------------------- | ------------------------------------------ |
 | 运行方式 | 嵌入式运行在应用内部               | 独立代理，运行在应用与数据库之间           |
 | 性能     | 低网络开销，性能较高               | 引入网络开销，性能略低sql                  |
