@@ -155,6 +155,12 @@ declare namespace API {
     message?: string
   }
 
+  type BaseResponseSpaceVO_ = {
+    code?: number
+    data?: SpaceVO
+    message?: string
+  }
+
   type BaseResponseString_ = {
     code?: number
     data?: string
@@ -204,17 +210,17 @@ declare namespace API {
     taskId?: string
   }
 
-  type getPictureVOByIdUsingGET1Params = {
-    /** id */
-    id?: number
-  }
-
   type getPictureVOByIdUsingGETParams = {
     /** id */
     id?: number
   }
 
   type getSpaceByIdUsingGETParams = {
+    /** id */
+    id?: number
+  }
+
+  type getSpaceVOByIdUsingGETParams = {
     /** id */
     id?: number
   }
@@ -424,6 +430,7 @@ declare namespace API {
     id?: number
     introduction?: string
     name?: string
+    permissionList?: string[]
     picColor?: string
     picFormat?: string
     picHeight?: number
@@ -432,6 +439,7 @@ declare namespace API {
     picWidth?: number
     spaceId?: number
     tags?: string[]
+    thumbnailUrl?: string
     updateTime?: string
     url?: string
     user?: UserVO
@@ -611,9 +619,9 @@ declare namespace API {
     id?: number
     maxCount?: number
     maxSize?: number
+    permissionList?: string[]
     spaceLevel?: number
     spaceName?: string
-    spaceType?: number
     totalCount?: number
     totalSize?: number
     updateTime?: string

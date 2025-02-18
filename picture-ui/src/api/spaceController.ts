@@ -62,13 +62,13 @@ export async function getSpaceByIdUsingGet(
   })
 }
 
-/** getPictureVOById GET /api/space/get/vo */
-export async function getPictureVoByIdUsingGet(
+/** getSpaceVOById GET /api/space/get/vo */
+export async function getSpaceVoByIdUsingGet(
   // 叠加生成的Param类型 (非body参数swagger默认没有生成对象)
-  params: API.getPictureVOByIdUsingGET1Params,
+  params: API.getSpaceVOByIdUsingGETParams,
   options?: { [key: string]: any }
 ) {
-  return request<API.BaseResponsePictureVO_>('/api/space/get/vo', {
+  return request<API.BaseResponseSpaceVO_>('/api/space/get/vo', {
     method: 'GET',
     params: {
       ...params,

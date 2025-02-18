@@ -9,14 +9,12 @@ import com.lz.picture.constant.UserConstant;
 import com.lz.picture.exception.BusinessException;
 import com.lz.picture.exception.ErrorCode;
 import com.lz.picture.exception.ThrowUtils;
+import com.lz.picture.manager.auth.SpaceUserAuthManager;
 import com.lz.picture.model.dto.space.*;
-import com.lz.picture.model.entity.Picture;
 import com.lz.picture.model.entity.Space;
 import com.lz.picture.model.entity.User;
 import com.lz.picture.model.enums.SpaceLevelEnum;
-import com.lz.picture.model.vo.picture.PictureVO;
 import com.lz.picture.model.vo.space.SpaceVO;
-import com.lz.picture.service.PictureService;
 import com.lz.picture.service.SpaceService;
 import com.lz.picture.service.UserService;
 import org.springframework.beans.BeanUtils;
@@ -47,8 +45,7 @@ public class SpaceController {
     private SpaceService spaceService;
 
     @Resource
-    private PictureService pictureService;
-
+    private SpaceUserAuthManager spaceUserAuthManager;
 
     @PostMapping("/add")
     public BaseResponse<Long> addSpace(@RequestBody SpaceAddRequest spaceAddRequest, HttpServletRequest request) {
@@ -123,33 +120,20 @@ public class SpaceController {
     }
 
     /**
-     * 根据 id 获取图片（封装类）
+     * 根据 id 获取空间（封装类）
      */
     @GetMapping("/get/vo")
-    public BaseResponse<PictureVO> getPictureVOById(long id, HttpServletRequest request) {
+    public BaseResponse<SpaceVO> getSpaceVOById(long id, HttpServletRequest request) {
         ThrowUtils.throwIf(id <= 0, ErrorCode.PARAMS_ERROR);
         // 查询数据库
-        Picture picture = pictureService.getById(id);
-        ThrowUtils.throwIf(picture == null, ErrorCode.NOT_FOUND_ERROR);
-        // 空间权限校验
-        Long spaceId = picture.getSpaceId();
-        Space space = null;
-        if (spaceId != null) {
-//            boolean hasPermission = StpKit.SPACE.hasPermission(SpaceUserPermissionConstant.PICTURE_VIEW);
-//            ThrowUtils.throwIf(!hasPermission, ErrorCode.NO_AUTH_ERROR);
-            // 已经改为使用注解鉴权
-            // User loginUser = userService.getLoginUser(request);
-            // pictureService.checkPictureAuth(loginUser, picture);
-            space = spaceService.getById(spaceId);
-            ThrowUtils.throwIf(space == null, ErrorCode.NOT_FOUND_ERROR, "空间不存在");
-        }
-        // 获取权限列表
+        Space space = spaceService.getById(id);
+        ThrowUtils.throwIf(space == null, ErrorCode.NOT_FOUND_ERROR);
+        SpaceVO spaceVO = spaceService.getSpaceVO(space, request);
         User loginUser = userService.getLoginUser(request);
-//        List<String> permissionList = spaceUserAuthManager.getPermissionList(space, loginUser);
-        PictureVO pictureVO = pictureService.getPictureVO(picture, request);
-//        pictureVO.setPermissionList(permissionList);
+        List<String> permissionList = spaceUserAuthManager.getPermissionList(space, loginUser);
+        spaceVO.setPermissionList(permissionList);
         // 获取封装类
-        return ResultUtils.success(pictureVO);
+        return ResultUtils.success(spaceVO);
     }
 
     /**
@@ -214,21 +198,19 @@ public class SpaceController {
     }
 
     /**
-     * description: 获取空间级别
-     * author: YY
-     * method: listSpaceLevel
-     * date: 2025/2/12 01:53
-     * param:
-     * return: com.lz.picture.common.BaseResponse<java.util.List<com.lz.picture.model.dto.space.SpaceLevel>>
-     **/
+     * 获取空间级别列表，便于前端展示
+     *
+     * @return
+     */
     @GetMapping("/list/level")
     public BaseResponse<List<SpaceLevel>> listSpaceLevel() {
-        List<SpaceLevel> spaceLevelList = Arrays.stream(SpaceLevelEnum.values()) // 获取所有枚举
+        List<SpaceLevel> spaceLevelList = Arrays.stream(SpaceLevelEnum.values())
                 .map(spaceLevelEnum -> new SpaceLevel(
                         spaceLevelEnum.getValue(),
                         spaceLevelEnum.getText(),
                         spaceLevelEnum.getMaxCount(),
-                        spaceLevelEnum.getMaxSize()))
+                        spaceLevelEnum.getMaxSize()
+                ))
                 .collect(Collectors.toList());
         return ResultUtils.success(spaceLevelList);
     }

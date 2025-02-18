@@ -27,7 +27,7 @@
     <a-card title="空间级别介绍">
       <a-typography-paragraph>
         * 目前仅支持开通普通版，如需升级空间，请联系
-        <a href="https://github.com/SpringSunYY/yp_picture" target="_blank">YY</a>
+        <a href="https://codefather.cn" target="_blank">程序员鱼皮</a>
       </a-typography-paragraph>
       <a-typography-paragraph v-for="spaceLevel in spaceLevelList">
         {{ spaceLevel.text }}：大小 {{ formatSize(spaceLevel.maxSize) }}，数量
@@ -48,6 +48,7 @@ import {
 import { useRoute, useRouter } from 'vue-router'
 import { SPACE_LEVEL_OPTIONS, SPACE_TYPE_ENUM, SPACE_TYPE_MAP } from '@/constants/space.ts'
 import { formatSize } from '@/utils'
+import { getPictureVoByIdUsingGet } from '@/api/pictureController.ts'
 
 const space = ref<API.SpaceVO>()
 const spaceForm = reactive<API.SpaceAddRequest | API.SpaceEditRequest>({})
