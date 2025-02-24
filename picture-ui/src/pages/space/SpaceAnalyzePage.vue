@@ -12,29 +12,29 @@
     <a-row :gutter="[16, 16]">
       <!-- 空间使用分析 -->
       <a-col :xs="24" :md="12">
-        <SpaceUsageAnalyze :spaceId="Number(spaceId)" :queryAll="queryAll" :queryPublic="queryPublic" />
+        <SpaceUsageAnalyze :spaceId="spaceId" :queryAll="queryAll" :queryPublic="queryPublic" />
       </a-col>
       <!-- 空间分类分析 -->
       <a-col :xs="24" :md="12">
-        <SpaceCategoryAnalyze :spaceId="Number(spaceId)" :queryAll="queryAll" :queryPublic="queryPublic" />
+        <SpaceCategoryAnalyze :spaceId="spaceId" :queryAll="queryAll" :queryPublic="queryPublic" />
       </a-col>
       <!-- 标签分析 -->
       <a-col :xs="24" :md="12">
-        <SpaceTagAnalyze :spaceId="Number(spaceId)" :queryAll="queryAll" :queryPublic="queryPublic" />
+        <SpaceTagAnalyze :spaceId="spaceId" :queryAll="queryAll" :queryPublic="queryPublic" />
       </a-col>
       <!-- 图片大小分段分析 -->
       <a-col :xs="24" :md="12">
-        <SpaceSizeAnalyze :spaceId="Number(spaceId)" :queryAll="queryAll" :queryPublic="queryPublic" />
+        <SpaceSizeAnalyze :spaceId="spaceId" :queryAll="queryAll" :queryPublic="queryPublic" />
       </a-col>
       <!-- 用户上传行为分析 -->
       <a-col :xs="24" :md="12">
-        <SpaceUserAnalyze :spaceId="Number(spaceId)" :queryAll="queryAll" :queryPublic="queryPublic" />
+        <SpaceUserAnalyze :spaceId="spaceId" :queryAll="queryAll" :queryPublic="queryPublic" />
       </a-col>
       <!-- 空间使用排行分析 -->
       <a-col :xs="24" :md="12">
         <SpaceRankAnalyze
           v-if="isAdmin"
-          :spaceId="Number(spaceId)"
+          :spaceId="spaceId"
           :queryAll="queryAll"
           :queryPublic="queryPublic"
         />
